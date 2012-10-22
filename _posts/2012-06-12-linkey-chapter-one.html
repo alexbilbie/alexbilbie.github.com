@@ -1,0 +1,276 @@
+---
+layout: post
+title: Linkey, Chapter One
+permalink: /2012/06/linkey-chapter-one/
+---
+
+<em>- This has been cross posted from the <a href="http://linkey.blogs.lincoln.ac.uk/">Linkey project blog</a>.</em>
+
+<p>It&#8217;s 9am on Monday 25th June 2012 and the Linkey project is officially kicking off.</p>
+
+<h2>What is Linkey</h2>
+
+<p><em>Linkey</em> is a <a href="http://jisc.ac.uk">JISC</a> funded research project under the <a href="">Access and Identity Management programme</a>. It will run from June 2012 to May 2013.</p>
+
+<p>The project will provide a detailed case study of the use of OAuth as an authorisation protocol here at the University of Lincoln. Working closely with the university Library, we will examine how the <a href="http://oauth.org/2">OAuth 2.0 specification</a> can be integrated into a ‘single sign on’ environment alongside <a href="http://www.microsoft.com/en-us/server-cloud/forefront/unified-access-gateway.aspx">Microsoft&#8217;s Unified Access Gateway</a>.</p>
+
+<p>Our intention is to show how OAuth 2.0 can be used as part of an access and identity environment in higher education that improves the student experience by:</p>
+
+<ol>
+<li>A consistent and user centric sign-­in experience.</li>
+<li>A richer exchange of user information between applications.</li>
+<li>Easier development and implementation of new products.</li>
+</ol>
+
+<h2>Why?</h2>
+
+<p>A recent review of the university&#8217;s library systems and services indicated that we had around 10 core applications which provide access to over 150 other resources, all of which have different methods of authenticating users - some used LDAP to authenticate users (and so users use their network username and password) and others had their own database of users (which require a different passwords - and in some cases usernames - and every single one of these flows have a different sign in experience; some are web based with various designs, others are desktop based with a mixture of custom sign-in windows and Microsoft sign-in screens. Over 80% of user queries sent to the Library&#8217;s support email address around about problems accessing resources.</p>
+
+<p>Outside of the library there are over 100 other systems and services that have visibility in the business processes across the university which also authenticate in a number of different ways.</p>
+
+<p>All of these different authentication flows lead to a very inconsistent user experience and consistently for the last few years this has been highlighted in numerous student surveys.</p>
+
+<h2>Who?</h2>
+
+<p>I (<a href="http://phone.online.lincoln.ac.uk/abilbie">Alex Bilbie</a>) will be undertaking the majority of the work on the project. This will include researching technological solutions, engaging with end users, developing the open source OAuth 2.0 PHP server and working on the final implementation.</p>
+
+<p>The principal user on the project will be <a href="http://phone.online.lincoln.ac.uk/dmasterson">Dave Masterson</a>, Head of Electronic Library Services, who has been charged with improving the usability of our Library&#8217;s online services.</p>
+
+<p>The project manager for the project will be <a href="http://phone.online.lincoln.ac.uk/jwinn">Joss Winn</a>, Senior Lecturer in CERD and co-ordinator of the <a href="http://lncd.org">LNCD group</a>.</p>
+
+<p><a href="http://phone.online.lincoln.ac.uk/tsimmonds">Tim Simmonds</a>, Online Services Team Manager, will assume management and oversight of the technical implementation of both OAuth and UAG.</p>
+
+<h2>When?</h2>
+
+<p>The high level work plan is a below:</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Month
+            </th>
+            <th>
+                1
+            </th>
+            <th>
+                2
+            </th>
+            <th>
+                3
+            </th>
+            <th>
+                4
+            </th>
+            <th>
+                5
+            </th>
+            <th>
+                6
+            </th>
+            <th>
+                7
+            </th>
+            <th>
+                8
+            </th>
+            <th>
+                9
+            </th>
+            <th>
+                10
+            </th>
+            <th>
+                11
+            </th>
+            <th>
+                12
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    Initiate project
+                </th>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>
+                    Community Engagement
+                </th>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>
+                    Gather user requirements
+                </th>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>
+                    Evaluate available technologies and options
+                </th>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>
+                    Design Solution
+                </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>
+                    Technical development and implementation
+                </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>
+                    Write case study
+                </th>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>
+                    Write/submit conference paper
+                </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <th>
+                    OAuth workshop
+                </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>
+                    Project close
+                </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+        </tbody>
+</table>
+
+<p>You can follow the day to day activity on our <a href="https://www.pivotaltracker.com/projects/557455">Pivotal Tracker project page</a>.</p>
+
+<h2>Outcomes</h2>
+
+<p>The anticipated outcomes of the project are:</p>
+
+<ol>
+<li>A case study of our implementation of OAuth 2.0 together with Microsoft&#8217;s UAG product. We will provide draft sections of the final case study in 12 monthly blog posts, allowing for early peer-review.</li>
+<li>Continued development of our open source OAuth 2.0 server (based on <a href="https://github.com/alexbilbie/CodeIgniter-OAuth-2.0-Server">my server code</a>), including an implementation of the <a href="http://tools.ietf.org/wg/oauth/draft-ietf-oauth-saml2-bearer/">SAML 2.0 Bearer Assertion Profiles for OAuth 2.0</a> specification and other relevant extensions to the main standard. We aim to produce a ‘drop in’ solution for OAuth 2.0, in a similar way that the <a href="http://simplesamlphp.org/">SimpleSAMLphp</a> project supports SAML implementations.</li>
+<li>A public workshop on the use of OAuth 2.0 in Further and Higher Education.</li>
+<li>A conference/journal paper, based on our case study.</li>
+<li>Expertise in the implementation of an institution-wide infrastructure for AIM.</li>
+</ol>

@@ -1,0 +1,22 @@
+---
+layout: post
+title: How to get all of the predicates of an object in SPARQL
+permalink: /2012/05/how-to-get-all-of-the-predicates-of-an-object-in-sparql/
+---
+
+I finally discovered the other day how to get all of the predicates of an object in SPARQL. For this example I'll query the University of <a href="http://data.lib.cam.ac.uk/endpoint.php">Cambridge endpoint</a> to get all of the information they have about The Lord of the Rings.
+
+<code><pre>
+SELECT * WHERE
+{
+    'http://data.lib.cam.ac.uk/id/entry/cambrdgedb_1327612' ?p ?o .
+}
+</pre></code>
+
+This query returns the following data:
+
+<div style="width: auto; overflow: auto;">
+<table><tbody><tr><th>p</th><th>o</th></tr><tr><td><a href="http://purl.org/dc/terms/title">http://purl.org/dc/terms/title</a></td><td>The Lord of the Rings</td></tr><tr><td><a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a></td><td><a href="http://data.lib.cam.ac.uk/id/type/1cb251ec0d568de6a929b520c4aed8d1">http://data.lib.cam.ac.uk/id/type/1cb251ec0d568de6a929b520c4aed8d1</a></td></tr><tr><td><a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a></td><td><a href="http://data.lib.cam.ac.uk/id/type/46657eb180382684090fda2b5670335d">http://data.lib.cam.ac.uk/id/type/46657eb180382684090fda2b5670335d</a></td></tr><tr><td><a href="http://purl.org/dc/terms/identifier">http://purl.org/dc/terms/identifier</a></td><td>UkCU1327612</td></tr><tr><td><a href="http://purl.org/dc/terms/identifier">http://purl.org/dc/terms/identifier</a></td><td>urn:isbn:0048231576</td></tr><tr><td><a href="http://purl.org/dc/terms/issued">http://purl.org/dc/terms/issued</a></td><td>1979</td></tr><tr><td><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a></td><td><a href="http://id.loc.gov/vocabulary/iso639-2/eng">http://id.loc.gov/vocabulary/iso639-2/eng</a></td></tr><tr><td><a href="http://RDVocab.info/ElementsplaceOfPublication">http://RDVocab.info/ElementsplaceOfPublication</a></td><td><a href="http://id.loc.gov/vocabulary/countries/enk">http://id.loc.gov/vocabulary/countries/enk</a></td></tr><tr><td><a href="http://purl.org/ontology/bibo/isbn">http://purl.org/ontology/bibo/isbn</a></td><td>0048231576</td></tr><tr><td><a href="http://purl.org/dc/terms/creator">http://purl.org/dc/terms/creator</a></td><td><a href="http://data.lib.cam.ac.uk/id/entity/cambrdgedb_041c446ee6c5c4bd5a63bcc2debe1351">http://data.lib.cam.ac.uk/id/entity/cambrdgedb_041c446ee6c5c4bd5a63bcc2debe1351</a></td></tr><tr><td><a href="http://iflastandards.info/ns/isbd/elements/P1016">http://iflastandards.info/ns/isbd/elements/P1016</a></td><td>London</td></tr><tr><td><a href="http://purl.org/dc/terms/publisher">http://purl.org/dc/terms/publisher</a></td><td><a href="http://data.lib.cam.ac.uk/id/entity/cambrdgedb_b7c309134a35a5455692006ee550ddf6">http://data.lib.cam.ac.uk/id/entity/cambrdgedb_b7c309134a35a5455692006ee550ddf6</a></td></tr><tr><td><a href="http://purl.org/dc/terms/created">http://purl.org/dc/terms/created</a></td><td>1979</td></tr><tr><td><a href="http://purl.org/dc/terms/extent">http://purl.org/dc/terms/extent</a></td><td><a href="http://data.lib.cam.ac.uk/id/entity/cambrdgedb_935bf1a181de0991dce6d3ee56b53ba4">http://data.lib.cam.ac.uk/id/entity/cambrdgedb_935bf1a181de0991dce6d3ee56b53ba4</a></td></tr><tr><td><a href="http://iflastandards.info/ns/isbd/elements/P1008">http://iflastandards.info/ns/isbd/elements/P1008</a></td><td>3rd ed</td></tr></tbody></table>
+</div>
+
+<a href="http://data.lib.cam.ac.uk/endpoint.php?query=SELECT+*+WHERE%0D%0A%7B%0D%0A++++%27http%3A%2F%2Fdata.lib.cam.ac.uk%2Fid%2Fentry%2Fcambrdgedb_1327612%27+%3Fp+%3Fo+.%0D%0A%7D&output=htmltab&jsonp=&key=&show_inline=1">You can run this query yourself</a>
