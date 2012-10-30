@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: OAuth 2.0 has been standardised
 permalink: /2012/10/oauth-2-0-has-been-standardised/
 ---
