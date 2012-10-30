@@ -2,21 +2,31 @@
 layout: layout
 ---
 
-<article data-layout="post">
+<article data-layout="post" itemtype="http://schema.org/BlogPosting">
 
-	<h1>
+	<h1 itemprop="name">
 		{{ page.title }}
 	</h1>
 
 	<aside>
 		<p>
-			{{ page.date | date: "%e %B %Y" }} &middot;
-			<a href="{{ post.url }}">
+			<span>
+				{{ page.date | date: "%e %B %Y" }}
+			</span>
+			&middot;
+			<a href="{{ post.url }}" itemprop="url">
 				∞
 			</a>
+
+			<meta itemprop="author" content="Alex Bilbie">
+			<meta itemprop="dateCreated" content="{{ page.date | date: "%Y-%m-%d" }}">
 		</p>
 	</aside>
 
-	{{ content }}
+	<span itemprop="text">
+
+		{{ content }}
+
+	</span>
 
 </article>

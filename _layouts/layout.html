@@ -9,19 +9,19 @@
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/Blog">
 
         <header id="header">
             <div class="container">
 
                 <h1>
-                    <a href="/">
-                        alexbilbie.com
+                    <a href="/" itemprop="url">
+                        <span itemprop="name">alexbilbie.com</span>
                     </a>
                 </h1>
 
                 <p>
-                    The blog of <a href="/about">Alex Bilbie</a>: developer, whisky fan and thinker
+                    The blog of <a href="/about" itemprop="author">Alex Bilbie</a>: developer, whisky fan and thinker
                 </p>
                 <p>
                     <a href="/atom.xml">
@@ -47,7 +47,14 @@
         <footer id="footer">
             <div class="container">
                 <p>
-                    &copy; Alex Bilbie 2012 &middot;
+                    &copy;
+                    <span itemprop="copyrightHolder" itemprop="http://schema.org/Person">
+                        <span itemprop="name">Alex Bilbie</span>
+                    </span>
+                    <span itemprop="copyrightYear">
+                        2012
+                    </span>
+                    &middot;
                     <a href="https://twitter.com/alexbilbie">Follow me on Twitter</a>
                 </p>
             </div>
