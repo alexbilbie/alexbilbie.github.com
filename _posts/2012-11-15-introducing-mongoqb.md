@@ -58,6 +58,7 @@ phpunit -c tests/phpunit.xml
 ### Connect to the database
 
 {% highlight php %}
+<?php
 $qb = \MongoQB\Builder(array(
 	'dsn'	=>	'mongodb://user:pass@localhost:27017/databaseName'
 );
@@ -66,6 +67,7 @@ $qb = \MongoQB\Builder(array(
 ### Insert a document
 
 {% highlight php %}
+<?php
 $qb->insert('collectionName', [
 	'name'	=>	'Alex',
 	'age'		=>	22,
@@ -76,6 +78,7 @@ $qb->insert('collectionName', [
 ### Update a single document
 
 {% highlight php %}
+<?php
 $qb
 	->where(['name' => 'Alex'])
 	->set([
@@ -89,6 +92,7 @@ $qb
 ### Delete a single document
 
 {% highlight php %}
+<?php
 $qb
 	->where(['name' => 'Alex'])
 	->delete('collectionName');
@@ -97,12 +101,12 @@ $qb
 ### Search for matching documents
 
 {% highlight php %}
+<?php
 $results = $qb
 	->whereGt('age', 21)
-	->whereIn('likes', ['whiskey'])
+	->whereIn('likes', ['whisky'])
 	->where('country', 'UK')
 	->get('collectionName');
 {% endhighlight %}
----
 
 If you find any bugs please file a report in the [Issue tracker](https://github.com/alexbilbie/MongoQB/Issues)
