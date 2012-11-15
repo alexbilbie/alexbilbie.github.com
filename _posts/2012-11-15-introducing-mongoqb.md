@@ -12,25 +12,25 @@ I've just spent the last week travelling and to keep myself occupied I spent som
 
 Add the following into your composer.json file:
 
-```javascript
+{% highlight javascript %}
 {
 	"require": {
 		"alexbilbie/mongoqb": "*"
 	}
 }
-```
+{% endhighlight %}
 
 Then run
 
-```shell
+{% highlight bash %}
 composer install
-```
+{% endhighlight %}
 
 ## Install via Git
 
-```shell
+{% highlight bash %}
 git clone git://git@github.com:alexbilbie/MongoQB
-```
+{% endhighlight %}
 
 ## Download a zip/tarball
 
@@ -47,35 +47,35 @@ To run the unit test suite make sure you have MongoDB installed locally and runn
 
 Then run:
 
-```shell
+{% highlight bash %}
 composer update --dev
 cd vendor/alexbilbie/mongoqb
 phpunit -c tests/phpunit.xml
-```
+{% endhighlight %}
 
 ## Example usage
 
 ### Connect to the database
 
-```php
+{% highlight php %}
 $qb = \MongoQB\Builder(array(
 	'dsn'	=>	'mongodb://user:pass@localhost:27017/databaseName'
 );
-```
+{% endhighlight %}
 
 ### Insert a document
 
-```php
+{% highlight php %}
 $qb->insert('collectionName', [
 	'name'	=>	'Alex',
 	'age'		=>	22,
 	'likes'	=>	['whisky', 'gin']
 ]);
-```
+{% endhighlight %}
 
 ### Update a single document
 
-```php
+{% highlight php %}
 $qb
 	->where(['name' => 'Alex'])
 	->set([
@@ -84,25 +84,25 @@ $qb
 	])
 	->push('likes', ['PHP', 'coffee'])
 	->update('collectionName');
-```
+{% endhighlight %}
 
 ### Delete a single document
 
-```php
+{% highlight php %}
 $qb
 	->where(['name' => 'Alex'])
 	->delete('collectionName');
-```
+{% endhighlight %}
 
 ### Search for matching documents
 
-```php
+{% highlight php %}
 $results = $qb
 	->whereGt('age', 21)
 	->whereIn('likes', ['whiskey'])
 	->where('country', 'UK')
 	->get('collectionName');
-```
+{% endhighlight %}
 ---
 
 If you find any bugs please file a report in the [Issue tracker](https://github.com/alexbilbie/MongoQB/Issues)
