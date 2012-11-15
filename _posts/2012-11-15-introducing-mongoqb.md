@@ -43,7 +43,7 @@ Download the latest version:
 
 ## Unit tests
 
-To run the unit test suite make sure you have MongoDB installed locally and running with no authentication and on the default port - 27017.
+To run the unit test suite make sure you have MongoDB installed locally and running with no authentication and on the default port - 27017. The library currently has 100% unit test coverage.
 
 Then run:
 
@@ -70,7 +70,7 @@ $qb = \MongoQB\Builder(array(
 <?php
 $qb->insert('collectionName', [
 	'name'	=>	'Alex',
-	'age'		=>	22,
+	'age'	=>	22,
 	'likes'	=>	['whisky', 'gin']
 ]);
 {% endhighlight %}
@@ -83,7 +83,7 @@ $qb
 	->where(['name' => 'Alex'])
 	->set([
 		'country' => 'UK',
-		'job'	=>	'Developer'
+		'job' => 'Developer'
 	])
 	->push('likes', ['PHP', 'coffee'])
 	->update('collectionName');
