@@ -6,7 +6,7 @@ permalink: /2012/11/introducing-mongoqb/
 
 A few years ago I released a [MongoDB library](https://github.com/alexbilbie/codeigniter-mongodb-library) for the [CodeIgniter](http://codeigniter.com/) PHP framework which has become quite popular thanks to it's likeness to CodeIgniter's query builder library.
 
-I've just spent the last week travelling and to keep myself occupied I spent some time re-architecting the library's code; removing the framework dependancy, making it [Composer](http://getcomposer.org/) friendly and adding a full suite of unit tests.
+I've just spent the last week travelling and to keep myself occupied I spent some time re-architecting the library's code; removing the framework dependancy, making it [Composer](http://getcomposer.org/) friendly and adding a full suite of unit tests. Check out the code on Github - [https://github.com/alexbilbie/MongoQB](https://github.com/alexbilbie/MongoQB).
 
 ## Install via Packagist and Composer
 
