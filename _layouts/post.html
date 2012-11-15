@@ -14,7 +14,7 @@ layout: layout
 				{{ page.date | date: "%e %B %Y" }}
 			</span>
 			&middot;
-			<a href="{{ post.url }}" itemprop="url">
+			<a href="{{ page.url }}" itemprop="url">
 				∞
 			</a>
 
@@ -36,7 +36,7 @@ layout: layout
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
 	var disqus_shortname = 'alexbilbie';
-	var disqus_identifier = '{{ post.url }}';
+	var disqus_identifier = '{{ page.url }}';
 	(function() {
 	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 	dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
