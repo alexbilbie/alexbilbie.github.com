@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /2012/12/hawk-a-new-http-authentication-scheme
-title: Hawk, a new HTTP authentication scheme
+permalink: /2012/11/hawk-a-new-http-authentication-scheme/
+title: Hawk a new HTTP authentication scheme
 ---
 
 [Eran Hammer](http://hueniverse.com/) (formerly editor of the OAuth specifications) has introduced a new HTTP authentication scheme called [Hawk](https://github.com/hueniverse/hawk).
@@ -111,7 +111,7 @@ $hawk = Hawk::generateHeader($key, $secret, array(
 				'path'	=>	'/user/123',
 				'method'	=>	'GET' // could be POST/DELETE/etc
 			));
-{% end highlight %}
+{% endhighlight %}
 
 You can also pass in additional application specific data with an `ext` key in the array.
 
