@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /2012/11/hawk-a-new-http-authentication-scheme/
-title: Hawk a new HTTP authentication scheme
+title: "Hawk\: a new HTTP authentication scheme"
 ---
 
 [Eran Hammer](http://hueniverse.com/) (formerly editor of the OAuth specifications) has introduced a new HTTP authentication scheme called [Hawk](https://github.com/hueniverse/hawk).
