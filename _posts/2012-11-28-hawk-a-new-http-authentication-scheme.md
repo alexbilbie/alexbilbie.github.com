@@ -106,11 +106,11 @@ To generate the header run the following:
 $key = 'ghU3QVGgXM';
 $secret = '5jNP12yT17Hx5Md3DCZ5pGI5sui82efX';
 $hawk = Hawk::generateHeader($key, $secret, array(
-				'host'	=>	'api.example.com', // you must set this
-				`port`	=>	443, // you must set this
-				'path'	=>	'/user/123',
-				'method'	=>	'GET' // could be POST/DELETE/etc
-			));
+	'host'	=>	'api.example.com', // you must set this
+	`port`	=>	443, // you must set this
+	'path'	=>	'/user/123',
+	'method'	=>	'GET' // could be POST/DELETE/etc
+));
 {% endhighlight %}
 
 You can also pass in additional application specific data with an `ext` key in the array.
@@ -138,9 +138,9 @@ $secret = getSecret($hark_parts['id']);
 
 // Now validate the request
 $valid = Hawk::verifyHeader($hawk, array(
-		'host'	=>	'api.example.com',
-		'port'	=>	443,
-		'path'	=>	'/user/123',
-		'method'	=>	'GET'
-	), $secret); // return true if the request is valid, otherwise false
+	'host'	=>	'api.example.com',
+	'port'	=>	443,
+	'path'	=>	'/user/123',
+	'method'	=>	'GET'
+), $secret); // return true if the request is valid, otherwise false
 {% endhighlight %}
