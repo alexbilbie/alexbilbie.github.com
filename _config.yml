@@ -1,4 +1,4 @@
 pygments: true
 permalink: /posts/:title
 auto: true
-paginate: 3
+paginate: 8
