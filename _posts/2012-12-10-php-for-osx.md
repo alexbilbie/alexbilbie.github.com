@@ -14,3 +14,5 @@ Install PHP 5.4 is as simple as running the following in your terminal:
 To make this new version of PHP your system default, edit your system path so that /usr/local/php5/bin is before wherever the default PHP location is (find that out with `which php`).
 
 Remember to read the install full notes on the web page.
+
+[➝ http://php-osx.liip.ch/](http://php-osx.liip.ch/)
