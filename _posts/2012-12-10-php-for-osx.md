@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "PHP 5.3/5.4 for OS X 10.6/10.7/10.8 as binary package"
 permalink: /2012/12/php-for-osx/
 ---
