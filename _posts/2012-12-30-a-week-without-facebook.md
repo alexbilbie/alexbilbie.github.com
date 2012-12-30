@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: "A week without Facebook"
+permalink: /2012/12/a-week-without-facebook/
 ---
 
 A week ago today I deactivated my Facebook account. It was something I've been considering since a friend mentioned recently how frustrated he gets when he get's invited to events over Facebook and how noone calls or texts him anymore, and I feel the same. I just don't feel "social" on Facebook. I get far more digital interaction with friends on Twitter, and that has been the case for a while.
