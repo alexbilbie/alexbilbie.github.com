@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "A week without Facebook"
 ---
 
