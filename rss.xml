@@ -18,12 +18,14 @@ layout: nil
 				<title>{% if post.link %}{{ "&rarr;" | xml_escape }} {{ post.title }}{% else %}{{ post.title }}{% endif %}</title>
 				{% if post.link %}
 					<link href="{{ post.link }}"/>
+					<guid>{{ post.link }}</guid>
 				{% else %}
 					<link href="http://alexbilbie.com{{ post.url }}"/>
+					<guid>http://alexbilbie.com/{{ post.id }}</guid>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<author>Alex Bilbie</author>
-				<guid>http://alexbilbie.com/{{ post.id }}</guid>
+
 				<description>
 					{{ post.content | xml_escape }}
 
