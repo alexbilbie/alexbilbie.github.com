@@ -3,25 +3,35 @@ layout: nil
 ---
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>alexbilbie.com</title>
-    <link>http://alexbilbie.com/</link>
-    <atom:link href="http://alexbilbie.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>Posts from alexbilbie.com</description>
-    <language>en-gb</language>
-    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+	<channel>
 
-    {% for post in site.posts %}
-    <item>
-      <title>{{ post.title }}</title>
-      <link>http://functionn.github.com{{ post.url }}</link>
-      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>Alex Bilbie</author>
-      <guid>http://alexbilbie.com/{{ post.id }}</guid>
-      <description>{{ post.content | xml_escape }}</description>
-    </item>
-    {% endfor %}
+		<title>alexbilbie.com</title>
+		<link>http://alexbilbie.com/</link>
+		<atom:link href="http://alexbilbie.com/rss.xml" rel="self" type="application/rss+xml" />
+		<description>Posts from alexbilbie.com</description>
+		<language>en-gb</language>
+		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
-  </channel>
+		{% for post in site.posts %}
+			<item>
+				<title>{% if post.link %}{{ "&rarr;" | xml_escape }} {{ post.title }}{% else %}{{ post.title }}{% endif %}</title>
+				{% if post.link %}
+					<link href="{{ post.link }}"/>
+				{% else %}
+					<link href="http://alexbilbie.com{{ post.url }}"/>
+				{% endif %}
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<author>Alex Bilbie</author>
+				<guid>http://alexbilbie.com/{{ post.id }}</guid>
+				<description>
+					{{ post.content | xml_escape }}
+
+					{% capture permalink %}<p><a href="http://alexbilbie.com{{ post.url }}">∞ Permalink</a</p>{% endcapture %}
+					{{ permalink | xml_escape }}
+				</description>
+			</item>
+		{% endfor %}
+
+	</channel>
 </rss>
