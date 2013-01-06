@@ -4,24 +4,30 @@ title: "Home"
 ---
 
 {% for post in paginator.posts %}
-<article>
+	<article>
 
-	<h1>
-		{{ post.title }}
-	</h1>
+		<h1>
+			{% if post.link %}
+				<a href="{{ post.link }}">
+					{{ post.title }} &rarr;
+				</a>
+			{% else %}
+				{{ post.title }}
+			{% endif %}
+		</h1>
 
-	<aside>
-		<p>
-			{{ post.date | date: "%e %B %Y" }} &middot;
-			<a href="{{ post.url }}">
-				∞
-			</a>
-		</p>
-	</aside>
+		<aside>
+			<p>
+				{{ post.date | date: "%e %B %Y" }} &middot;
+				<a href="{{ post.url }}">
+					∞
+				</a>
+			</p>
+		</aside>
 
-	{{ post.content }}
+		{{ post.content }}
 
-</article>
+	</article>
 {% endfor %}
 
 <div class="pagination">
