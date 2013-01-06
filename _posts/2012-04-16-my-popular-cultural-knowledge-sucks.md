@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: My popular culture knowledge sucks
 permalink: /2012/04/my-popular-culture-knowledge-sucks/
 ---

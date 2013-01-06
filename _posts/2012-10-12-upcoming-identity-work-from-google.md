@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Upcoming identity work from Google announcement
 permalink: /2012/10/upcoming-identity-work-from-google/
 ---

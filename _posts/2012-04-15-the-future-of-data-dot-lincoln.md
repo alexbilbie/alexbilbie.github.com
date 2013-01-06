@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The future of data.lincoln.ac.uk
 permalink: /2012/04/the-future-of-data-lincoln/
 ---

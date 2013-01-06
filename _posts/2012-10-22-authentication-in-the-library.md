@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 permalink: /2012/10/authentication-in-the-library/
 title: Authentication in the Library
 ---

@@ -1,6 +1,6 @@
 ---
 title: What is OAuth?
-layout: post
+layout: default
 permalink: /2012/07/what-is-oauth/
 ---
 

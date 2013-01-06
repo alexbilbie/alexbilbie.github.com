@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Update to my CodeIgniter MongoDB library
 permalink: /2012/04/update-to-my-codeigniter-mongodb-library/
 ---

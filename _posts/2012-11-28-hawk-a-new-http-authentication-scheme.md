@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 permalink: /2012/11/hawk-a-new-http-authentication-scheme/
 title: "Hawk: a new HTTP authentication scheme"
 ---

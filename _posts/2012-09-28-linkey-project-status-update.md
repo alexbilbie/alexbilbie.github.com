@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 permalink: /2012/09/linkey-project-status-update
 title: Linkey Project Status Update 1
 ---

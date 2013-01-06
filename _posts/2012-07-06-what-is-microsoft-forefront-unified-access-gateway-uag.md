@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: What is Microsoft Forefront Unified Access Gateway (UAG)?
 permalink: /2012/06/what-is-microsoft-forefront-unified-access-gateway-uag/
 ---

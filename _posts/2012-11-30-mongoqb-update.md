@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "MongoQB updated for Mongo PECL 1.3"
 permalink: /2012/11/mongoqb-update/
 ---

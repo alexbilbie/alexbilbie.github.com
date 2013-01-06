@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Hello, world!
 permalink: /2012/04/hello-world/
 ---

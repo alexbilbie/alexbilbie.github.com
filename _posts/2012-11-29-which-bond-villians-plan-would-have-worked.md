@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Which Bond villain plan would have worked?"
 permalink: /2012/11/which-bond-villians-plan-would-have-worked/
 

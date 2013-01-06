@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Introducing MongoQB
 permalink: /2012/11/introducing-mongoqb/
 ---
