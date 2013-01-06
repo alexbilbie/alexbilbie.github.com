@@ -21,7 +21,7 @@ layout: nil
 					<guid>{{ post.link }}</guid>
 				{% else %}
 					<link href="http://alexbilbie.com{{ post.url }}"/>
-					<guid>http://alexbilbie.com/{{ post.id }}</guid>
+					<guid>http://alexbilbie.com{{ post.id }}</guid>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<author>Alex Bilbie</author>
