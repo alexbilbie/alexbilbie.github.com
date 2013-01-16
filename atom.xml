@@ -19,7 +19,7 @@ layout: nil
 			{% if post.link %}
 				<link href="{{ post.link }}"/>
 			{% else %}
-				<link href="http://alexbilbie.com{{ post.url }}?utm_source=atom&utm_medium=atom&utm_campaign=atom"/>
+				<link href="http://alexbilbie.com{{ post.url }}?utm_source=atom&amp;utm_medium=atom&amp;utm_campaign=atom"/>
 			{% endif %}
 
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
@@ -27,7 +27,7 @@ layout: nil
 			<content type="html">
 				{{ post.content | xml_escape }}
 
-				{% capture permalink %}<p><a href="http://alexbilbie.com{{ post.url }}?utm_source=atom&utm_medium=atom&utm_campaign=atom">∞ Permalink</a</p>{% endcapture %}
+				{% capture permalink %}<p><a href="http://alexbilbie.com{{ post.url }}?utm_source=atom&amp;utm_medium=atom&amp;utm_campaign=atom">∞ Permalink</a</p>{% endcapture %}
 				{{ permalink | xml_escape }}
 			</content>
 		</entry>

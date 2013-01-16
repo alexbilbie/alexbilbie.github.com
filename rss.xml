@@ -20,7 +20,7 @@ layout: nil
 					<link href="{{ post.link }}"/>
 					<guid>{{ post.link }}</guid>
 				{% else %}
-					<link href="http://alexbilbie.com{{ post.url }}?utm_source=rss&utm_medium=rss&utm_campaign=rss"/>
+					<link href="http://alexbilbie.com{{ post.url }}?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss"/>
 					<guid>http://alexbilbie.com{{ post.id }}</guid>
 				{% endif %}
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -29,7 +29,7 @@ layout: nil
 				<description>
 					{{ post.content | xml_escape }}
 
-					{% capture permalink %}<p><a href="http://alexbilbie.com{{ post.url }}?utm_source=rss&utm_medium=rss&utm_campaign=rss">∞ Permalink</a</p>{% endcapture %}
+					{% capture permalink %}<p><a href="http://alexbilbie.com{{ post.url }}?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss">∞ Permalink</a</p>{% endcapture %}
 					{{ permalink | xml_escape }}
 				</description>
 			</item>
