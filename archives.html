@@ -1,0 +1,28 @@
+---
+layout: layout
+title: Archive
+permalink: /archive/
+---
+
+{% for post in site.posts %}
+	{% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+	{% capture post_month %}{{ post.date | date: '%B' }}{% endcapture %}
+
+	{% if next_year == nil or post_year != next_year %}
+
+		<h1>{{ post_year }} archive</h1>
+
+	{% endif %}
+
+	{% if next_month == nil or post_month != next_month %}
+
+		<h3>{{ post_month }}</h3>
+
+	{% endif %}
+
+	<a href="{{ post.url }}">{{ post.title }}</a><br>
+
+	{% assign next_year = post_year %}
+	{% assign next_month = post_month %}
+
+{% endfor %}
