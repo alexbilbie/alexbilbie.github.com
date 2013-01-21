@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-link: http://static.nomachetejuggling.com/machete_order.html
+link: http://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/
 title: "Star Wars: Machete Order"
 ---
 
