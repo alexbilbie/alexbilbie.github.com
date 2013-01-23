@@ -1,0 +1,17 @@
+---
+layout: default
+published: false
+title: Actual Facebook Graph searches
+link: http://actualfacebookgraphsearches.tumblr.com/
+permalink: /2013/01/actual-facebook-graph-searches/
+---
+
+<p>Some of my favourites:</p>
+
+<blockquote>“Mothers of Jews who like Bacon”</blockquote>
+ 
+
+<blockquote>“Current employees of Tesco who like horses”</blockquote>
+
+
+<blockquote>“Mothers of Catholics from Italy who like Durex”</blockquote>
