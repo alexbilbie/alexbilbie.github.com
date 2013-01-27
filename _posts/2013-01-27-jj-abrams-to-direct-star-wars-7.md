@@ -10,6 +10,6 @@ I'm very excited about this - I love Abrams' previous work on Fringe, Alias, Sta
 
 Having said this whole Disney/LucasFilm/Bad Robot relationship thing is a bit unnerving. I really hope they don't do anything stupid and start mixing universes and come out with something like "Episode VII: Buzz Lightyear to the Rescue".
 
-"Episode VII: Pirates of Dagobah" might be cool though.
+"Episode VII: Pirates of the Dagobah System" might be cool though.
 
 ![http://i.imgur.com/wiTAEdG.jpg](http://i.imgur.com/wiTAEdG.jpg)
