@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-title: It might not get weirder than this
+title: "It might not get weirder than this"
 link: https://sites.google.com/site/sophieinnorthkorea/
 permalink: /2013/02/it-might-not-get-weirder-than-this/
 ---
