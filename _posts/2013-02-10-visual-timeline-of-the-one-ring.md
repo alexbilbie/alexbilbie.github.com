@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 permalink: /2013/02/10/visual-timeline-of-the-one-ring/
 title: "Visual timeline of the One Ring"
 link: http://lotrproject.com/blog/2013/01/20/visual-timeline-of-the-one-ring/
