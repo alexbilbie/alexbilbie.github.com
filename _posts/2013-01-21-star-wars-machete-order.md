@@ -3,6 +3,7 @@ layout: default
 published: true
 link: http://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/
 title: "Star Wars: Machete Order"
+permalink: /2013/01/star-wars-machete-order/
 ---
 
 I still remember watching the 1997 Special Edition releases at the cinema with my Dad and then dressing up as a jedi to go and see The Phantom Menace with my friends when I was 9.
