@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: "Tell SELinux to let PHP connect to a remote MySQL database"
 permalink: /2013/02/selinux-php-mysql/
 ---
