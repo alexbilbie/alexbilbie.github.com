@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: "How it feels [through Glass]"
 permalink: /2013/02/how-it-feels-through-glass/
 ---
