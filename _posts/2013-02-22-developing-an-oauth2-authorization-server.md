@@ -1,8 +1,9 @@
 ---
 title: Developing an OAuth 2.0 authorization server
-permalink: /2013/02/22/developing-an-oauth2-authorization-server/
+permalink: /2013/02/developing-an-oauth2-authorization-server/
 layout: default
 published: false
+date: "2013-02-22 09:00:00"
 ---
 
 This guide will show you how to setup a basic OAuth 2.0 authorization server which supports the  authorization code grant type.
