@@ -12,65 +12,63 @@ SAML, or Security Assertion Markup Language, is an XML-based framework that allo
 
 Information is exchanged through the concept of assertion tokens, which are XML documents that state facts about the assertion's subject. For example, a SAML assertion about me might look like:
 
-{% highlight html %}
-<saml:Response ID="_257f9d9e9fa14962c0803903a6ccad931245264310738" IssueInstant="2012-09-03T18:45:10Z" Version="2.0">
+	<saml:Response ID="_257f9d9e9fa14962c0803903a6ccad931245264310738" IssueInstant="2012-09-03T18:45:10Z" Version="2.0">
 
-	<saml:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">
-		https://www.lincoln.ac.uk
-	</saml:Issuer>
+		<saml:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">
+			https://www.lincoln.ac.uk
+		</saml:Issuer>
 
-	<saml:Status>
-		<saml:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
-	</saml:Status>
+		<saml:Status>
+			<saml:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+		</saml:Status>
 
-	<saml:Assertion ID="_3c39bc0fe7b13769cab2f6f45eba801b1245264310738" IssueInstant="2012-09-03T18:45:10Z" Version="2.0">
-	<saml:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">
-		https://www.lincoln.ac.uk
-	</saml:Issuer>
+		<saml:Assertion ID="_3c39bc0fe7b13769cab2f6f45eba801b1245264310738" IssueInstant="2012-09-03T18:45:10Z" Version="2.0">
+		<saml:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">
+			https://www.lincoln.ac.uk
+		</saml:Issuer>
 
-	<saml:Subject>
-		<saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">
-			abilbie@lincoln.ac.uk
-		</saml:NameID>
-		<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
-			<saml:SubjectConfirmationData NotOnOrAfter="2012-09-03T18:50:10Z" Recipient="https://sso.lincoln.ac.uk"/>
-		</saml:SubjectConfirmation>
-	</saml:Subject>
+		<saml:Subject>
+			<saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">
+				abilbie@lincoln.ac.uk
+			</saml:NameID>
+			<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+				<saml:SubjectConfirmationData NotOnOrAfter="2012-09-03T18:50:10Z" Recipient="https://sso.lincoln.ac.uk"/>
+			</saml:SubjectConfirmation>
+		</saml:Subject>
 
-	<saml:Conditions NotBefore="2012-09-03T18:45:10Z" NotOnOrAfter="2012-09-03T18:50:10Z">
-		<saml:AudienceRestriction>
-			<saml:Audience>https://sso.lincoln.ac.uk</saml:Audience>
-		</saml:AudienceRestriction>
-	</saml:Conditions>
+		<saml:Conditions NotBefore="2012-09-03T18:45:10Z" NotOnOrAfter="2012-09-03T18:50:10Z">
+			<saml:AudienceRestriction>
+				<saml:Audience>https://sso.lincoln.ac.uk</saml:Audience>
+			</saml:AudienceRestriction>
+		</saml:Conditions>
 
-	<saml:AuthnStatement AuthnInstant="2012-09-03T18:45:10Z">
-		<saml:AuthnContext>
-			<saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
-		</saml:AuthnContext>
-	</saml:AuthnStatement>
+		<saml:AuthnStatement AuthnInstant="2012-09-03T18:45:10Z">
+			<saml:AuthnContext>
+				<saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+			</saml:AuthnContext>
+		</saml:AuthnStatement>
 
-	<saml:AttributeStatement>
+		<saml:AttributeStatement>
 
-		<saml:Attribute Name="name">
-			<saml:AttributeValue xsi:type="xs:anyType">Alex Bilbie</saml:AttributeValue>
-		</saml:Attribute>
+			<saml:Attribute Name="name">
+				<saml:AttributeValue xsi:type="xs:anyType">Alex Bilbie</saml:AttributeValue>
+			</saml:Attribute>
 
-		<saml:Attribute Name="network_id">
-			<saml:AttributeValue xsi:type="xs:anyType">abilbie</saml:AttributeValue>
-		</saml:Attribute>
+			<saml:Attribute Name="network_id">
+				<saml:AttributeValue xsi:type="xs:anyType">abilbie</saml:AttributeValue>
+			</saml:Attribute>
 
-		<saml:Attribute Name="division">
-			<saml:AttributeValue xsi:type="xs:anyType">ICT Services</saml:AttributeValue>
-		</saml:Attribute>
+			<saml:Attribute Name="division">
+				<saml:AttributeValue xsi:type="xs:anyType">ICT Services</saml:AttributeValue>
+			</saml:Attribute>
 
-		<saml:Attribute Name="staff_directory_url">
-			<saml:AttributeValue xsi:type="xs:anyType">http://staff.lncd.org/abilbie</saml:AttributeValue>
-		</saml:Attribute>
+			<saml:Attribute Name="staff_directory_url">
+				<saml:AttributeValue xsi:type="xs:anyType">http://staff.lncd.org/abilbie</saml:AttributeValue>
+			</saml:Attribute>
 
-	</saml:AttributeStatement>
-	</saml:Assertion>
-</saml:Response>
-{% endhighlight %}
+		</saml:AttributeStatement>
+		</saml:Assertion>
+	</saml:Response>
 
 This assertion here states that my name is `Alex Bilbie`, my network ID is `abilbie`, my division is `ICT Services` and that my staff directory page is `http://staff.lncd.org/abilbie`.
 

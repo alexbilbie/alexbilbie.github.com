@@ -12,25 +12,22 @@ I've just spent the last week travelling and to keep myself occupied I spent som
 
 Add the following into your composer.json file:
 
-{% highlight javascript %}
-{
+<pre><code data-language="javascript">{
 	"require": {
 		"alexbilbie/mongoqb": "*"
 	}
 }
-{% endhighlight %}
+</code></pre>
 
 Then run
 
-{% highlight bash %}
-composer install
-{% endhighlight %}
+<pre><code data-language="shell">composer install
+</code></pre>
 
 ## Install via Git
 
-{% highlight bash %}
-git clone git://git@github.com:alexbilbie/MongoQB
-{% endhighlight %}
+<pre><code data-language="shell">git clone git://git@github.com:alexbilbie/MongoQB
+</code></pre>
 
 ## Download a zip/tarball
 
@@ -47,39 +44,32 @@ To run the unit test suite make sure you have MongoDB installed locally and runn
 
 Then run:
 
-{% highlight bash %}
-composer update --dev
+<pre><code data-language="shell">composer update --dev
 cd vendor/alexbilbie/mongoqb
 phpunit -c tests/phpunit.xml
-{% endhighlight %}
+</code></pre>
 
 ## Example usage
 
 ### Connect to the database
 
-{% highlight php %}
-<?php
-$qb = \MongoQB\Builder(array(
+<pre><code data-language="php">$qb = \MongoQB\Builder(array(
 	'dsn'	=>	'mongodb://user:pass@localhost:27017/databaseName'
 );
-{% endhighlight %}
+</code></pre>
 
 ### Insert a document
 
-{% highlight php %}
-<?php
-$qb->insert('collectionName', [
+<pre><code data-language="php">$qb->insert('collectionName', [
 	'name'	=>	'Alex',
 	'age'	=>	22,
 	'likes'	=>	['whisky', 'gin']
 ]);
-{% endhighlight %}
+</code></pre>
 
 ### Update a single document
 
-{% highlight php %}
-<?php
-$qb
+<pre><code data-language="php">$qb
 	->where(['name' => 'Alex'])
 	->set([
 		'country' => 'UK',
@@ -87,26 +77,22 @@ $qb
 	])
 	->push('likes', ['PHP', 'coffee'])
 	->update('collectionName');
-{% endhighlight %}
+</code></pre>
 
 ### Delete a single document
 
-{% highlight php %}
-<?php
-$qb
+<pre><code data-language="php">$qb
 	->where(['name' => 'Alex'])
 	->delete('collectionName');
-{% endhighlight %}
+</code></pre>
 
 ### Search for matching documents
 
-{% highlight php %}
-<?php
-$results = $qb
+<pre><code data-language="php">$results = $qb
 	->whereGt('age', 21)
 	->whereIn('likes', ['whisky'])
 	->where('country', 'UK')
 	->get('collectionName');
-{% endhighlight %}
+</code></pre>
 
 If you find any bugs please file a report in the [Issue tracker](https://github.com/alexbilbie/MongoQB/Issues)

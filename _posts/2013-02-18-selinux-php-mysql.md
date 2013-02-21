@@ -11,7 +11,6 @@ Turns out it was effin' SELinux again ([see previous woes here](http://alexbilbi
 
 Setting the following values (as root) makes it all suddenly work fine:
 
-```
-setsebool -P httpd_can_network_connect 1
+<pre><code data-language="shell">setsebool -P httpd_can_network_connect 1
 setsebool -P httpd_can_network_connect_db 1
-```
+</code></pre>

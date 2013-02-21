@@ -10,7 +10,8 @@ One useful use case is when you need to distribute zip/tarballs of your reposito
 
 In the repository root add a new `.gitattributes` file and for each file or folder you want to exclude add `export-ignore` after it:
 
-	tests/ export-ignore
-	build.xml export-ignore
-	phpunit.xml export-ignore
-
+<pre>
+tests/ export-ignore
+build.xml export-ignore
+phpunit.xml export-ignore
+</pre>

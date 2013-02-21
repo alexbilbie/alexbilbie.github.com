@@ -9,7 +9,7 @@ We spent far too many hours trying to solve a problem on a brand new RHEL6 box t
 
 It turned out that SELinux was preventing Apache from accessing the files. The command to get around this is:
 
-`chcon -Rv -t httpd_sys_content_t /path/to/web/root`
+<pre><code data-language="shell">chcon -Rv -t httpd_sys_content_t /path/to/web/root</code></pre>
 
 I don't know much about SELinux but as I understand it that command should be persistant across server reboots. Also it seems you don't need to reapply it each time you create a new file in the webroot either.
 

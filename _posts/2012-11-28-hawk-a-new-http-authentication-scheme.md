@@ -101,12 +101,10 @@ And the API server has given you the following credentials:
 
 To generate the header run the following:
 
-{% highlight php %}
-<?php
-$key = 'ghU3QVGgXM';
+<pre><code data-language="php">$key = 'ghU3QVGgXM';
 $secret = '5jNP12yT17Hx5Md3DCZ5pGI5sui82efX';
 $hawk = Hawk::generateHeader($key, $secret, 'GET', 'https://api.example.com/user/123?foo=bar');
-{% endhighlight %}
+</code></pre>
 
 You can also pass in additional application specific data with an `ext` key in the array.
 
@@ -116,14 +114,14 @@ Once you've got the Hawk string include it in your HTTP request as an `Authoriza
 
 On your API endpoint if the incoming request is missing an authorization header then return the following two headers:
 
-`HTTP/1.1 401 Unauthorized`
-`WWW-Authenticate: Hawk`
+<pre>
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Hawk
+</pre>
 
 If the request does contain a Hawk authorization header then process it like so:
 
-{% highlight php %}
-<?php
-$hawk = ''; // the authorisation header
+<pre><code data-language="php">$hawk = ''; // the authorisation header
 
 // First parse the header to get the parts from the string
 $hawk_parts = Hawk::parseHeader($hawk);
@@ -138,4 +136,4 @@ $valid = Hawk::verifyHeader($hawk, array(
 	'path'	=>	'/user/123',
 	'method'	=>	'GET'
 ), $secret); // return true if the request is valid, otherwise false
-{% endhighlight %}
+</code></pre>
