@@ -6,6 +6,10 @@ published: true
 date: "2013-02-22 09:00:00"
 ---
 
+In my previous post I announced my new OAuth 2.0 PHP libraries. This is the first in a number of posts that will show you how to use it.
+
+---
+
 This guide will show you how to setup a basic OAuth 2.0 authorization server which supports the  authorization code grant type.
 
 ## Install the library
