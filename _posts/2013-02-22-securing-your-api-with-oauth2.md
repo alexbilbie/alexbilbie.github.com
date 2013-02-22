@@ -232,8 +232,7 @@ You might use an API function like this to allow a client to discover who a user
 
 In this example, the endpoint will only respond to access tokens that are owner by client applications and that have the scope `users.list`.
 
-<pre><code data-language="php">
-$app->get('/users', $checkToken(), function () use ($server, $app) {
+<pre><code data-language="php">$app->get('/users', $checkToken(), function () use ($server, $app) {
 
     $user_model = new UserModel();
 
