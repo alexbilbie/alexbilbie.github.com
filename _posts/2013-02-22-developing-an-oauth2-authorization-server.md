@@ -6,7 +6,7 @@ published: true
 date: "2013-02-22 09:00:00"
 ---
 
-In my previous post I announced my new OAuth 2.0 PHP libraries. This is the first in a number of posts that will show you how to use it.
+In [my previous post](http://alexbilbie.com/2013/02/php-meet-oauth-2/) I announced my new OAuth 2.0 PHP libraries. This is the first in a number of posts that will show you how to use it.
 
 ---
 
