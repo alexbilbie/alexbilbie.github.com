@@ -94,11 +94,13 @@ If you’re using a framework such as Laravel or CodeIgniter you could use a rou
 When `$server->isValid()` is called the library will run the following tasks:
 
 * Check if an access token is present in the query string
-* If not, check if a base64 encoded access token is contained in an authorization header.
-* If not, throw `\OAuth2\Exception\InvalidAccessTokenException`
+    * If not, check if a base64 encoded access token is contained in an authorization header.
+        * If not, throw `\OAuth2\Exception\InvalidAccessTokenException`
 * Check if the access token is valid with the database
-* If not, throw `\OAuth2\Exception\InvalidAccessTokenException`
-* If the access token is valid then get the owner type (e.g. “user” or “client”) and their ID, and get a list of any scopes that are associated with the access token
+    * If not, throw `\OAuth2\Exception\InvalidAccessTokenException`
+* If the access token is valid:
+    * Get the owner type (e.g. “user” or “client”) and their ID
+    * Get a list of any scopes that are associated with the access token
 
 Assuming an exception isn’t thrown you can then use the following functions in your API code:
 

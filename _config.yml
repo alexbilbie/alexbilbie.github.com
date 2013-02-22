@@ -2,3 +2,4 @@ pygments: true
 permalink: /posts/:title
 auto: true
 paginate: 8
+markdown: rdiscount
