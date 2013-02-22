@@ -2,7 +2,7 @@
 title: Developing an OAuth 2.0 authorization server
 permalink: /2013/02/developing-an-oauth2-authorization-server/
 layout: default
-published: false
+published: true
 date: "2013-02-22 09:00:00"
 ---
 
