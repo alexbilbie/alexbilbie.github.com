@@ -3,6 +3,7 @@ layout: default
 published: true
 title: "Nine Inch Nails returns!"
 permalink: /2013/02/nin-reform/
+date: "2013-02-25 22:40:00"
 ---
 
 <p>This is quite literally the best news I've heard all year. I've seen Nine Inch Nails four times live and I missed them last time they toured the UK. Hopefully it won't be long until they're back!</p>
