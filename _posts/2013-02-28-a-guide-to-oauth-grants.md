@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: "A guide to OAuth 2.0 grants"
 permalink: /2013/02/a-guide-to-oauth-2-grants/
 date: "2013-02-28 16:15:00"
