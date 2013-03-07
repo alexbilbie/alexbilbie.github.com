@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-permalink: /2013/02/twitter-official-clients-have-their-oauth-keys-leak/
+permalink: /2013/03/twitter-official-clients-have-their-oauth-keys-leak/
 title: "Twitter's official clients have their OAuth keys leak"
 date: "2013-03-07 15:00:00"
 ---
