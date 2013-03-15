@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} &middot; The blog of Alex Bilbie</title>
-        <meta name="description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:500 }}">
+        <title>{{ page.title }} &middot; Alex Bilbie</title>
+        <meta name="description" content="The blog of Alex Bilbie: two parts web developer, one part whisky fan, a splash of public speaking and a twist of entrepreneurship, served chilled.">
         <meta name="viewport" content="width=device-width">
         <link rel="alternate" type="application/rss+xml" title="RSS feed for alexbilbie.com" href="/rss.xml" />
         <link rel="alternate" type="application/atom+xml" title="Atom feed for alexbilbie.com" href="/atom.xml" />
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body itemscope itemtype="http://schema.org/Blog">
@@ -55,59 +55,7 @@
 
         <section class="container">
 
-            <article data-layout="post" itemtype="http://schema.org/BlogPosting">
-
-                <h1>
-                    {% if page.link %}
-                        <a href="{{ page.link }}">
-                            &rarr; {{ page.title }}
-                        </a>
-                    {% else %}
-                        {{ page.title }}
-                    {% endif %}
-                </h1>
-
-                <aside>
-                    <p>
-                        <span>
-                            {{ page.date | date: "%e %B %Y" }}
-                        </span>
-                        &middot;
-                        <a href="{{ page.url }}" itemprop="url">
-                            ∞
-                        </a>
-
-                        <meta itemprop="author" content="Alex Bilbie">
-                        <meta itemprop="dateCreated" content="{{ page.date | date: "%Y-%m-%d" }}">
-                    </p>
-                </aside>
-
-                <span itemprop="text">
-
-                    {{ content }}
-
-                </span>
-
-                <hr class="comments">
-
-                <div id="disqus_thread"></div>
-                <script type="text/javascript">
-                var disqus_shortname = 'alexbilbie';
-                var disqus_identifier = '{{ page.url }}';
-                var disqus_url = 'http://alexbilbie.com{{ page.permalink }}';
-                (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-                </script>
-                <noscript>
-                    <p>
-                        Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-                    </p>
-                </noscript>
-
-            </article>
+            {{ content }}
 
         </section>
 

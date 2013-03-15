@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} &middot; Alex Bilbie</title>
-        <meta name="description" content="The blog of Alex Bilbie: two parts web developer, one part whisky fan, a splash of public speaking and a twist of entrepreneurship, served chilled.">
+        <title>{{ page.title }} &middot; The blog of Alex Bilbie</title>
+        <meta name="description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:500 }}">
         <meta name="viewport" content="width=device-width">
         <link rel="alternate" type="application/rss+xml" title="RSS feed for alexbilbie.com" href="/rss.xml" />
         <link rel="alternate" type="application/atom+xml" title="Atom feed for alexbilbie.com" href="/atom.xml" />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body itemscope itemtype="http://schema.org/Blog">
