@@ -3,6 +3,7 @@ published: true
 date: "2013-03-22 19:40:00"
 title: "Goodbye TVC!"
 permalink: /2013/03/goodbye-tvc/
+layout: default
 ---
 
 I'm sat writing this as I watch the One Show which is the final ever live broadcast from BBC Television Centre.
