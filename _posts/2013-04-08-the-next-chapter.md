@@ -1,6 +1,6 @@
 ---
 title: "The next chapter"
-date: "2013-04-03 13:00:00"
+date: "2013-04-08 11:00:00"
 permalink: /2013/04/the-next-chapter/
 layout: default
 published: true
