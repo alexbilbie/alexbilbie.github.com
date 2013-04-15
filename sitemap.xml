@@ -21,6 +21,7 @@ layout: nil
 	{% for post in site.posts %}
 	<url>
 		<loc>http://alexbilbie.com{{ post.url }}</loc>
+		<changefreq>monthly</changefreq>
 	</url>
 	{% endfor %}
 
