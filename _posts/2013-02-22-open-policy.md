@@ -4,6 +4,7 @@ published: true
 date: "2013-02-22 11:50:00"
 title: Open policy documents
 link: http://lincoln.nickjackson.me/the-power-of-open-policy/
+permalink: /2013/02/open-policy/
 ---
 
 My colleague [Nick Jackson](https://twitter.com/jacksonj04) discusses publishing policy documents in the open on Github:
