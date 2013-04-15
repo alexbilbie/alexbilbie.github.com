@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: "Awesome Nucleus People querying"
 date: "2011-07-28 11:33:00"
 ---
