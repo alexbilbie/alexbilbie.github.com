@@ -1,5 +1,5 @@
 pygments: true
-permalink: /posts/:title
+permalink: /:year/:month/:title
 auto: true
 paginate: 8
 markdown: rdiscount
