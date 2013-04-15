@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: "CWD, meet CDN"
 date: "2011-08-03 09:00:00"
 ---
