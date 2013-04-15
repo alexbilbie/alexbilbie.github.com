@@ -1,7 +1,8 @@
 ---
 layout: default
-published: true
+published: false
 title: "CWD, meet CDN"
+date: "2011-08-03 09:00:00"
 ---
 
 This morning there was a massive outage at the university’s Brayford campus, apparently caused by some of the builders on campus accidentally cutting an important power cable. As a result some of our servers died including the server hosting the Common Web Design (CWD); meaning tens of sites were left without CSS, JavaScript and images. I made the decision that now was an appropriate day to finally move the CWD onto Rackspace Cloud Files CDN.
