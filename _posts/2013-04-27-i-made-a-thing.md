@@ -10,7 +10,7 @@ A few weeks ago I was approached by the guys at [The Lincolnite](http://thelinco
 
 Part one launched yesterday and here’s what I’ve come up with:
 
-![Elections map](/images/elections-part-one.png)
+![Elections map](http://alexbilbie.com/images/elections-part-one.png)
 
 Check it out here - [http://thelincolnite.co.uk/elections](http://thelincolnite.co.uk/elections)
 
