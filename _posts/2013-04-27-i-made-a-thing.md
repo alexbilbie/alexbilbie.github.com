@@ -1,6 +1,6 @@
 ---
-title: "I made a thing (part one)"
-permalink: /2013/04/i-made-a-thing-part-one/
+title: "Developing an interactive county council election map (part one)"
+permalink: /2013/04/developing-an-interactive-county-council-election-map-part-one/
 date: "2013-04-27 11:00:00"
 layout: default
 published: true
