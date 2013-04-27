@@ -6,38 +6,41 @@ title: "Home"
 {% for post in paginator.posts %}
 	<article>
 
-		<h1>
-			{% if post.link %}
-				<a href="{{ post.link }}">
-					&rarr; {{ post.title }}
-				</a>
-			{% else %}
-				{{ post.title }}
-			{% endif %}
-		</h1>
+		<hgroup class="clearfix">
 
-		<aside>
-			<p>
-				{{ post.date | date: "%e %B %Y" }} &middot;
-				<a href="{{ post.url }}">
-					∞
-				</a>
-			</p>
-		</aside>
+			<h1>
+				{% if post.link %}
+					<a href="{{ post.link }}">
+						&rarr; {{ post.title }}
+					</a>
+				{% else %}
+					<a href="{{ post.url }}">
+						{{ post.title }}
+					</a>
+				{% endif %}
+			</h1>
+
+			<aside>
+				{{ post.date | date: "%e %B %Y" }}
+			</aside>
+
+		</hgroup>
 
 		{{ post.content }}
 
 	</article>
 {% endfor %}
 
-<div class="pagination">
-	{% if paginator.previous_page %}
-		<a href="/page{{paginator.previous_page}}" class="previous">Previous page</a>
-	{% endif %}
+<article class="pagination">
+	<p>
+		{% if paginator.previous_page %}
+			<a href="/page{{paginator.previous_page}}" class="previous">Previous page</a>
+		{% endif %}
 
-	<span class="page_number">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+		<span class="page_number">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
 
-	{% if paginator.next_page %}
-		<a href="/page{{paginator.next_page}}" class="next">Next page</a>
-	{% endif %}
-</div>
+		{% if paginator.next_page %}
+			<a href="/page{{paginator.next_page}}" class="next">Next page</a>
+		{% endif %}
+	</p>
+</article>

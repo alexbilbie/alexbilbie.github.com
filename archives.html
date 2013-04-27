@@ -12,11 +12,14 @@ permalink: /archive/
 			</article><article><h1>{{ post_year }} archive</h1>
 		{% endif %}
 
-		{% if next_month == nil or post_month != next_month %}
-			<h3>{{ post_month }}</h3>
-		{% endif %}
-
-		<a class="archive" href="{{ post.url }}">{{ post.title }}</a>
+		<div class="clearfix archive">
+			<span class="date">
+				{{ post.date | date: "%e %B" }}
+			</span>
+			<a href="{{ post.url }}">
+				{{ post.title }}
+			</a>
+		</div>
 
 		{% assign next_year = post_year %}
 		{% assign next_month = post_month %}
