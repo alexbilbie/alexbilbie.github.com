@@ -12,6 +12,8 @@ Part one launched yesterday and here’s what I’ve come up with:
 
 ![Elections map](/images/elections-part-one.png)
 
+Check it out here - [http://thelincolnite.co.uk/elections](http://thelincolnite.co.uk/elections)
+
 The map loads GeoJSON representations pf all 77 electoral divisions in Lincolnshire County Council and renders them on a custom [Mapbox](http://mapbox.com/) map (which hides a lot of unnecessary map detail such as buildings) using [Leaflet.js](http://leafletjs.com/). Each division is coloured in with the colour of the party that is currently represented in that area. When a user clicks on a district it zooms in and displays in the right hand column the current councillor and a list of the 2013 candidates.
 
 In the right hand column users can also enter their postcode which is sent to [MySociety’s](http://mysociety.org) excellent [MapIt](http://mapit.mysociety.org) service. If the postcode is real and is in the Lincolnshire County Council area then it will return with the ID of the division which will then zoom the map in and show candidates as above.
