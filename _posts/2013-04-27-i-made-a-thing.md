@@ -10,7 +10,7 @@ A few weeks ago I was approached by the guys at [The Lincolnite](http://thelinco
 
 Part one launched yesterday and here’s what I’ve come up with:
 
-![Elections map](../images/elections-part-one.png)
+![Elections map](/images/elections-part-one.png)
 
 The map loads GeoJSON representations from all 77 electoral divisions in Lincolnshire County Council and renders them on a custom [Mapbox](http://mapbox.com/) map (which hides a lot of unnecessary map detail such as buildings) using [Leaflet.js](http://leafletjs.com/). Each division is coloured in with the colour of the party that is currently represented in that area. When a user clicks on a district it zooms in and displays in the right hand column the current councillor and a list of the 2013 candidates.
 
