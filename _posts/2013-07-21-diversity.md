@@ -1,7 +1,9 @@
 ---
-title: "Diversity"
+title: Diversity
 date: "2013-07-21 21:33:00"
-link: http://hueniverse.com/2013/07/diversity-2/
+link: "http://hueniverse.com/2013/07/diversity-2/"
+published: true
+layout: default
 ---
 
 A beautiful post by Eran Hammer.
