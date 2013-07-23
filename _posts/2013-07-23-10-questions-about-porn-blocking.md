@@ -3,6 +3,7 @@ published: true
 date: "2013-07-23 13:48:00"
 title: "10 questions about Cameron's porn-blocking plan"
 link: http://paulbernal.wordpress.com/2013/07/22/10-questions-about-camerons-new-porn-blocking/
+layout: default
 ---
 
 I've mostly been a supporter of the current coalition government we have here in the UK but the Prime Minister's plan to block porn websites by default for all UK household broadband connections has made me angry and concerned. [This blog post](http://paulbernal.wordpress.com/2013/07/22/10-questions-about-camerons-new-porn-blocking/) by Paul Bernal lists many of the same questions that I've been thinking about since the plan was announced yesterday, namely:
