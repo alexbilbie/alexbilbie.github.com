@@ -1,8 +1,7 @@
 ---
 published: true
 date: "2013-07-23 13:48:00"
-title: "10 questions about Cameron's porn-blocking plan"
-link: http://paulbernal.wordpress.com/2013/07/22/10-questions-about-camerons-new-porn-blocking/
+title: "I can decide what is appropriate for myself thank you very much"
 layout: default
 ---
 
