@@ -2,7 +2,7 @@
 published: true
 layout: default
 link: "https://www.gov.uk/government/news/prime-ministers-speech-on-cyberspace"
-title: "Government doesn’t own the internet, or run the internet, or shape the internet."
+title: "&#10077;Government doesn’t own the internet, or run the internet, or shape the internet.&#10078;"
 date: "2013-07-29 14:46:00"
 ---
 
