@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 link: "http://tracks.ranea.org/post/56897315376/dear-recruiter"
 layout: default
 title: Dear Recruiter
