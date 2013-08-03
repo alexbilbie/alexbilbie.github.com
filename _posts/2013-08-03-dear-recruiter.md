@@ -12,4 +12,4 @@ Recently one guy got in touch who said that he found my "git-hub" profile and my
 
 Watts Martin has hit the nail on it's head with this post. I'd tick this option a lot:
 
-> [ ] I don’t expect you to be a programmer but you apparently can’t even use your mail client correctly and for God’s sake turn on spell-check
+> ▢ I don’t expect you to be a programmer but you apparently can’t even use your mail client correctly and for God’s sake turn on spell-check
