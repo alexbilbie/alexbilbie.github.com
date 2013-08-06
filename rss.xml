@@ -15,7 +15,7 @@ layout: nil
 
 		{% for post in site.posts %}
 			<item>
-				<title>{% if post.link %}{{ "&rarr;" | xml_escape }} {{ post.title }}{% else %}{{ post.title }}{% endif %}</title>
+				<title>{% if post.link %}{{ "&rarr;" | xml_escape }} {{ post.title | xml_escape }}{% else %}{{ post.title }}{% endif %}</title>
 				{% if post.link %}
 					<link href="{{ post.link }}"/>
 					<guid>{{ post.link }}</guid>
