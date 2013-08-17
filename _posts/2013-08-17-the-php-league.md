@@ -1,8 +1,16 @@
+---
+published: true
+link: "http://thephpleague.com/"
+date: "2013-08-17 10:48:00"
+title: "The League of Extraordinary Packages"
+layout: default
+---
+
 <div style="text-align:center">
 ![http://www.thephpleague.com/images/logo.png](http://www.thephpleague.com/images/logo.png)
 </div>
 
-Phil Sturgeon and I have been working on a little project for a while called the [League of Extraordinary Packages](http://www.thephpleague.com/):
+Phil Sturgeon and I have been working on a little project for a while called [The League of Extraordinary Packages](http://www.thephpleague.com/):
 
 > The League of Extraordinary Packages has one driving mission, to track down and develop PHP packages of the highest quality possible, using modern tools, standards and practices to distribute, test and strengthen the code.
 >
