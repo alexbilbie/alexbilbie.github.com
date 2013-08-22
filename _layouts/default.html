@@ -5,6 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }} &middot; The blog of Alex Bilbie</title>
         <meta name="description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:500 }}">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@alexbilbie">
+        <meta name="twitter:title" content="{{ page.title }} &middot; The blog of Alex Bilbie">
+        <meta name="twitter:description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:199 }}">
+        <meta name="twitter:creator" content="@alexbilbie">
+        <meta name="twitter:domain" content="alexbilbie.com">
         <meta name="viewport" content="width=device-width">
         <link rel="alternate" type="application/rss+xml" title="RSS feed for alexbilbie.com" href="/rss.xml" />
         <link rel="alternate" type="application/atom+xml" title="Atom feed for alexbilbie.com" href="/atom.xml" />
