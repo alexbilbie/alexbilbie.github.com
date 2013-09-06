@@ -5,7 +5,7 @@ layout: default
 published: false
 ---
 
-A question I'm asked frequently is how developers should securely store access tokens and client credentials in a single page using a single page JavaScript web apps.
+A question I'm asked frequently is how developers should securely store OAuth access tokens and client credentials in a single page using a single page JavaScript web apps.
 
 Here's the answer: you can't.
 
