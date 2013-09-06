@@ -2,7 +2,7 @@
 title: "How to securely store OAuth access tokens in single page JavaScript web apps"
 date: "2013-09-06 11:04:00"
 layout: default
-published: true
+published: false
 ---
 
 A question I'm asked frequently is how developers should securely store access tokens and client credentials in a single page using a single page JavaScript web apps.
