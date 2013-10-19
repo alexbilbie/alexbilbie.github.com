@@ -2,6 +2,7 @@
 published: true
 title: Entering a crowded market
 date: "2013-10-19 22:59:00"
+layout: default
 ---
 
 When I moved to London a friend recommended that I start using the buses more than the Tube or the trains because I'll better learn how the different areas and boroughs join up. And they were right, my knowledge of how (South) London interlinks now extends to both above ground as well as on the underground below. I've even saved myself some money by getting a weekly bus travelcard instead of a monthly zone 3-5 travelcard.
