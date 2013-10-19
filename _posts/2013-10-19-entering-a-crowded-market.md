@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Entering a crowded market
 date: "2013-10-19 22:59:00"
 ---
