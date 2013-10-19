@@ -28,4 +28,4 @@ Anyway those who've questioned why I'm attempting this have planted some seeds o
 
 I've embedded the video below and I thoroughly recommend you watch it.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/D2RoYvcqhgM" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="//www.youtube.com/embed/D2RoYvcqhgM" frameborder="0" allowfullscreen></iframe>
