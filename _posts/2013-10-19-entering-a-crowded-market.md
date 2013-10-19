@@ -22,7 +22,7 @@ So anyway, for the past few weeks I've been trying to learn how to make iOS apps
 1. The existing apps don't fulfill my needs.
 2. I'm a geek and it's in my nature to spend tens of hours solving a problem that will later go on to save me just a few minutes.
 3. I really do believe I've got some unique solutions to the problem.
-4. The entire thing will be built on [open data](http://data.tfl.gov.uk) and that makes me happy.
+4. The entire thing will be built on [open data](http://www.tfl.gov.uk/businessandpartners/syndication/default.aspx) and that makes me happy.
 
 Anyway those who've questioned why I'm attempting this have planted some seeds of doubt in my mind and I'll admit I have been questioning why myself, but this evening I watched [Marco Arment's excellent talk](http://www.youtube.com/watch?v=D2RoYvcqhgM) from XOXO conference where he's talking about entering a crowed market with his new iOS podcasting app and why he is bothering and it's rekindled my desire to crack on and make this app. 
 
