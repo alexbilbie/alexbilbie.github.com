@@ -6,7 +6,7 @@ title: "The League of Extraordinary Packages"
 layout: default
 ---
 
-![http://www.thephpleague.com/images/logo.png](http://www.thephpleague.com/images/logo.png)
+![http://www.thephpleague.com/images/logo.png](http://www.thephpleague.com/img/logo.png)
 
 Phil Sturgeon and I have been working on a little project for a while called [The League of Extraordinary Packages](http://www.thephpleague.com/):
 
