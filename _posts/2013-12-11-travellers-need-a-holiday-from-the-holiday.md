@@ -10,4 +10,4 @@ link: http://riseandshinepaps.wordpress.com/2013/12/05/a-holiday-from-the-holida
 
 My good friend Tara who has been travelling around the world for the last 6 months, through Africa, India and Asia. She's still got another two continents to go!
 
-She's written some fantastic blog posts throughout her trip, do check out her blog.
+She's written some fantastic posts throughout her trip, do check out her blog.
