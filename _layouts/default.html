@@ -76,7 +76,7 @@
                         <h1 itemprop="name">
                             {% if page.link %}
                                 <a href="{{ page.link }}">
-                                    &rarr; {{ page.title }}
+                                    <span class="glyphicon glyphicon-link"></span> {{ page.title }}
                                 </a>
                             {% else %}
                                 <a href="{{ page.url }}" itemprop="url">
@@ -103,7 +103,7 @@
                                 </li>
                                 {% endif %}
                                 <li>
-                                    <span class="glyphicon glyphicon-link"></span>
+                                    <span class="glyphicon glyphicon-pushpin"></span>
                                     <a href="{{ page.url }}">Permalink</a>
                                 </li>
                             </ul>

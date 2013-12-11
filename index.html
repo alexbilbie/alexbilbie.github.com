@@ -14,7 +14,7 @@ title: "Home"
                 <h1 itemprop="name">
                     {% if post.link %}
                         <a href="{{ post.link }}">
-                            &rarr; {{ post.title }}
+                            <span class="glyphicon glyphicon-link"></span> {{ post.title }}
                         </a>
                     {% else %}
                         <a href="{{ post.url }}" itemprop="url">
@@ -41,7 +41,7 @@ title: "Home"
                         </li>
                         {% endif %}
                         <li>
-                            <span class="glyphicon glyphicon-link"></span>
+                            <span class="glyphicon glyphicon-pushpin"></span>
                             <a href="{{ post.url }}">Permalink</a>
                         </li>
                     </ul>

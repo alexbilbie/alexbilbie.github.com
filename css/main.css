@@ -3514,6 +3514,9 @@ article hgroup h1 a:hover {
   color: #4AB8B4;
   text-decoration: none;
 }
+article hgroup h1 a .glyphicon {
+  font-size: 65%;
+}
 article aside {
   color: #b5bbbd;
   padding-top: 30px;
