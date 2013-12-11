@@ -3,6 +3,7 @@ published: true
 title: Entering a crowded market
 date: "2013-10-19 22:59:00"
 layout: default
+tags: iOS development TFL London
 ---
 
 When I moved to London a friend recommended that I start using the buses more than the Tube or the trains because I'll better learn how the different areas and boroughs join up. And they were right, my knowledge of how (South) London interlinks now extends to both above ground as well as on the underground below. I've even saved myself some money by getting a weekly bus travelcard instead of a monthly zone 3-5 travelcard.
@@ -24,8 +25,10 @@ So anyway, for the past few weeks I've been trying to learn how to make iOS apps
 3. I really do believe I've got some unique solutions to the problem.
 4. The entire thing will be built on [open data](http://www.tfl.gov.uk/businessandpartners/syndication/default.aspx) and that makes me happy.
 
-Anyway those who've questioned why I'm attempting this have planted some seeds of doubt in my mind and I'll admit I have been questioning why myself, but this evening I watched [Marco Arment's excellent talk](http://www.youtube.com/watch?v=D2RoYvcqhgM) from XOXO conference where he's talking about entering a crowed market with his new iOS podcasting app and why he is bothering and it's rekindled my desire to crack on and make this app. 
+Anyway those who've questioned why I'm attempting this have planted some seeds of doubt in my mind and I'll admit I have been questioning why myself, but this evening I watched [Marco Arment's excellent talk](http://www.youtube.com/watch?v=D2RoYvcqhgM) from XOXO conference where he's talking about entering a crowed market with his new iOS podcasting app and why he is bothering and it's rekindled my desire to crack on and make this app.
 
 I've embedded the video below and I thoroughly recommend you watch it.
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/D2RoYvcqhgM" frameborder="0" allowfullscreen></iframe>
+<div class="embed-container">
+    <iframe src="//www.youtube.com/embed/D2RoYvcqhgM" frameborder="0" allowfullscreen></iframe>
+</div>

@@ -1,5 +1,6 @@
 pygments: true
 permalink: /:year/:month/:title
 auto: true
-paginate: 8
+paginate: 5
+# paginate_path: /page/:num
 markdown: rdiscount

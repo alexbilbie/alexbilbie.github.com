@@ -4,43 +4,91 @@ title: "Home"
 ---
 
 {% for post in paginator.posts %}
-	<article>
 
-		<hgroup class="clearfix">
+    <article data-layout="post" itemtype="http://schema.org/BlogPosting">
 
-			<h1>
-				{% if post.link %}
-					<a href="{{ post.link }}">
-						&rarr; {{ post.title }}
-					</a>
-				{% else %}
-					<a href="{{ post.url }}">
-						{{ post.title }}
-					</a>
-				{% endif %}
-			</h1>
+        <div class="row">
 
-			<aside>
-				{{ post.date | date: "%e %B %Y" }}
-			</aside>
+            <hgroup class="col-md-8">
 
-		</hgroup>
+                <h1>
+                    {% if post.link %}
+                        <a href="{{ post.link }}">
+                            &rarr; {{ post.title }}
+                        </a>
+                    {% else %}
+                        <a href="{{ post.url }}" itemprop="url">
+                            {{ post.title }}
+                        </a>
+                    {% endif %}
+                </h1>
 
-		{{ post.content }}
+            </hgroup>
 
-	</article>
+            <aside class="col-md-3 col-md-offset-1">
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%e %B %Y" }}
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-align-justify"></span> {{ post.content | number_of_words }} words
+                        </li>
+                        {% if post.tags != empty %}
+                        <li>
+                            <span class="glyphicon glyphicon-tags"></span>
+                            {{ post.tags | array_to_sentence_string }}
+                        </li>
+                        {% endif %}
+                        <li>
+                            <span class="glyphicon glyphicon-link"></span>
+                            <a href="{{ post.url }}">Permalink</a>
+                        </li>
+                    </ul>
+
+                    <meta itemprop="author" content="Alex Bilbie">
+                    <meta itemprop="dateCreated" content="{{ post.date | date: "%Y-%m-%d" }}">
+            </aside>
+
+        </div>
+
+        <div class="row">
+
+            <div itemprop="text" class="bodytext col-md-8">
+
+                {{ post.content }}
+
+            </div>
+
+        </div>
+
+    </article>
 {% endfor %}
 
-<article class="pagination">
-	<p>
-		{% if paginator.previous_page %}
-			<a href="/page{{paginator.previous_page}}" class="previous">Previous page</a>
-		{% endif %}
+<div class="row">
 
-		<span class="page_number">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+    <div class="col-md-8">
 
-		{% if paginator.next_page %}
-			<a href="/page{{paginator.next_page}}" class="next">Next page</a>
-		{% endif %}
-	</p>
-</article>
+        <ul class="pager">
+            {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                    <li class="previous"><a href="/">&laquo; Previous page</a></li>
+                {% else %}
+                    <li class="previous"><a href="/page{{paginator.previous_page}}">&laquo; Previous page</a></li>
+                {% endif %}
+            {% else %}
+                <li class="previous disabled"><a href="#">&laquo; Previous page</a></li>
+            {% endif %}
+
+            <!-- <li><a href="#">Page: {{paginator.page}} of {{paginator.total_pages}}</a></li> -->
+
+            {% if paginator.next_page %}
+                <li class="next"><a href="/page{{paginator.next_page}}">Next page&raquo;</a></li>
+            {% else %}
+                <li class="next disabled"><a href="#">Next page&raquo;</a></li>
+            {% endif %}
+        </ul>
+
+    </div>
+
+</div>

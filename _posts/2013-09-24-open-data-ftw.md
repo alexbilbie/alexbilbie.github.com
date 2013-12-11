@@ -6,7 +6,9 @@ link: "http://www.ordnancesurvey.co.uk/innovate/developers/minecraft-map-britain
 layout: default
 ---
 
+<figure>
 ![http://www.ordnancesurvey.co.uk/collateral/images/hdk/RS1385_southampton-water-minecraft.jpg](http://www.ordnancesurvey.co.uk/collateral/images/hdk/RS1385_southampton-water-minecraft.jpg)
+</figure>
 
 Joseph Braybrook, an intern at the [Ordanance Survey Inovation Labs](http://www.ordnancesurvey.co.uk/innovate/), has created 86,000 square miles worth of geographically accurate Great Britain using some of their [open data products](http://www.ordnancesurvey.co.uk/business-and-government/products/opendata-products.html).
 

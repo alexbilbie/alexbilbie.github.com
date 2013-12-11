@@ -19,7 +19,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="alternate" type="application/rss+xml" title="RSS feed for alexbilbie.com" href="/rss.xml" />
         <link rel="alternate" type="application/atom+xml" title="Atom feed for alexbilbie.com" href="/atom.xml" />
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:900|Karla:400,400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css?v2">
     </head>
     <body itemscope itemtype="http://schema.org/Blog">
@@ -27,33 +27,42 @@
         <header id="header">
             <div class="container">
 
-                <h1>
-                    <a href="/" itemprop="url">
-                        <span itemprop="name">The blog of Alex Bilbie</span>
-                    </a>
-                </h1>
+                <div class="row">
 
-                <p>
-         
-                    <a href="/archive/">
-                        Blog Archive
-                    </a>
-                    &middot;
-                    <a href="/rss.xml">
-                        RSS Feed
-                    </a>
-                    &middot;
-                    <a href="https://twitter.com/alexbilbie">
-                        Twitter
-                    </a>
-                    &middot;
-                    <a href="https://github.com/alexbilbie">
-                        Github
-                    </a>
+                    <hgroup class="col-md-4">
 
-                  	<a style="display:none" href="https://plus.google.com/106902288334016085614?rel=author">
-                      	Google+
-                 	</a>
+                        <h1>
+                            <a href="/" itemprop="url">
+                                <span itemprop="name">Alex Bilbie</span>
+                            </a>
+                        </h1>
+
+                    </hgroup>
+
+                    <nav class="col-md-8">
+
+                        <a href="/archive/">
+                            Blog Archive
+                        </a>
+
+                        <a href="/rss.xml">
+                            RSS Feed
+                        </a>
+
+                        <a href="https://twitter.com/alexbilbie">
+                            Twitter
+                        </a>
+
+                        <a href="https://github.com/alexbilbie">
+                            Github
+                        </a>
+
+                      	<a style="display:none" href="https://plus.google.com/106902288334016085614?rel=author">
+                          	Google+
+                     	</a>
+
+                     </nav>
+                 </div>
             </div>
         </header>
 
@@ -61,25 +70,44 @@
 
             <article data-layout="post" itemtype="http://schema.org/BlogPosting">
 
-                <hgroup class="clearfix">
+                <div class="row">
 
-                    <h1>
-                        {% if page.link %}
-                            <a href="{{ page.link }}">
-                                &rarr; {{ page.title }}
-                            </a>
-                        {% else %}
-                            <a href="{{ page.url }}" itemprop="url">
-                                {{ page.title }}
-                            </a>
-                        {% endif %}
-                    </h1>
+                    <hgroup class="col-md-8">
 
-                    <aside>
+                        <h1>
+                            {% if page.link %}
+                                <a href="{{ page.link }}">
+                                    &rarr; {{ page.title }}
+                                </a>
+                            {% else %}
+                                <a href="{{ page.url }}" itemprop="url">
+                                    {{ page.title }}
+                                </a>
+                            {% endif %}
+                        </h1>
 
-                            <span>
-                                {{ page.date | date: "%e %B %Y" }}
-                            </span>
+                    </hgroup>
+
+                    <aside class="col-md-3 col-md-offset-1">
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <span class="glyphicon glyphicon-time"></span> {{ page.date | date: "%e %B %Y" }}
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-align-justify"></span> {{ page.content | number_of_words }} words
+                                <li>
+                                {% if post.tags != empty %}
+                                <li>
+                                    <span class="glyphicon glyphicon-tags"></span>
+                                    {{ page.tags | array_to_sentence_string }}
+                                </li>
+                                {% endif %}
+                                <li>
+                                    <span class="glyphicon glyphicon-link"></span>
+                                    <a href="{{ page.url }}">Permalink</a>
+                                </li>
+                            </ul>
 
 
                             <meta itemprop="author" content="Alex Bilbie">
@@ -87,13 +115,17 @@
 
                     </aside>
 
-                </hgroup>
+                </div>
 
-                <span itemprop="text">
+                <div class="row">
 
-                    {{ content }}
+                    <div itemprop="text" class="bodytext col-md-8">
 
-                </span>
+                        {{ content }}
+
+                    </div>
+
+                </div>
 
             </article>
 
@@ -101,17 +133,21 @@
 
         <footer id="footer">
             <div class="container">
-                <p>
-                    &copy;
-                    <span itemprop="copyrightHolder" itemprop="http://schema.org/Person">
-                        <span itemprop="name">Alex Bilbie</span>
-                    </span>
-                    <span itemprop="copyrightYear">
-                        2013
-                    </span>
-                    &middot;
-                    <a href="https://twitter.com/alexbilbie">Follow me on Twitter</a>
-                </p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            &copy;
+                            <span itemprop="copyrightHolder" itemprop="http://schema.org/Person">
+                                <span itemprop="name">Alex Bilbie</span>
+                            </span>
+                            <span itemprop="copyrightYear">
+                                2013
+                            </span>
+                            &middot;
+                            <a href="https://twitter.com/alexbilbie">Follow me on Twitter</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </footer>
 

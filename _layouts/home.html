@@ -3,12 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} &middot; Alex Bilbie</title>
-        <meta name="description" content="The blog of Alex Bilbie: two parts web developer, one part whisky fan, a splash of public speaking and a twist of entrepreneurship, served chilled.">
+        <title>{{ page.title }} &middot; The blog of Alex Bilbie</title>
+        <meta name="description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:500 }}">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@alexbilbie">
+        <meta name="twitter:title" content="{{ page.title }} &middot; The blog of Alex Bilbie">
+        <meta name="twitter:description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:199 }}">
+        <meta name="twitter:creator" content="@alexbilbie">
+        <meta name="twitter:domain" content="alexbilbie.com">
+        <meta name="twitter:image:src" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100">
+        <meta name="og:title" content="{{ page.title }} &middot; The blog of Alex Bilbie">
+        <meta property="og:url" content="{{ page.url }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100" />
         <meta name="viewport" content="width=device-width">
         <link rel="alternate" type="application/rss+xml" title="RSS feed for alexbilbie.com" href="/rss.xml" />
-        <link rel="alternate" type="application/atom+xml" title="Atom feed for alexbilbie.com" href="/atom.xml" />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:900|Karla:400,400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css?v2">
     </head>
     <body itemscope itemtype="http://schema.org/Blog">
@@ -16,33 +26,42 @@
         <header id="header">
             <div class="container">
 
-                <h1>
-                    <a href="/" itemprop="url">
-                       <span itemprop="name">The blog of Alex Bilbie</span>
-                    </a>
-                </h1>
+                <div class="row">
 
-                <p>
-                    
-                    <a href="/archive/">
-                        Blog Archive
-                    </a>
-                    &middot;
-                    <a href="/rss.xml">
-                        RSS Feed
-                    </a>
-                    &middot;
-                    <a href="https://twitter.com/alexbilbie">
-                        Twitter
-                    </a>
-                    &middot;
-                    <a href="https://github.com/alexbilbie">
-                        Github
-                    </a>
+                    <hgroup class="col-md-4">
 
-                  	<a style="display:none" href="https://plus.google.com/106902288334016085614?rel=author">
-                      	Google+
-                 	</a>
+                        <h1>
+                            <a href="/" itemprop="url">
+                                <span itemprop="name">Alex Bilbie</span>
+                            </a>
+                        </h1>
+
+                    </hgroup>
+
+                    <nav class="col-md-8">
+
+                        <a href="/archive/">
+                            Blog Archive
+                        </a>
+
+                        <a href="/rss.xml">
+                            RSS Feed
+                        </a>
+
+                        <a href="https://twitter.com/alexbilbie">
+                            Twitter
+                        </a>
+
+                        <a href="https://github.com/alexbilbie">
+                            Github
+                        </a>
+
+                        <a style="display:none" href="https://plus.google.com/106902288334016085614?rel=author">
+                            Google+
+                        </a>
+
+                     </nav>
+                 </div>
             </div>
         </header>
 
@@ -54,17 +73,21 @@
 
         <footer id="footer">
             <div class="container">
-                <p>
-                    &copy;
-                    <span itemprop="copyrightHolder" itemprop="http://schema.org/Person">
-                        <span itemprop="name">Alex Bilbie</span>
-                    </span>
-                    <span itemprop="copyrightYear">
-                        2013
-                    </span>
-                    &middot;
-                    <a href="https://twitter.com/alexbilbie">Follow me on Twitter</a>
-                </p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            &copy;
+                            <span itemprop="copyrightHolder" itemprop="http://schema.org/Person">
+                                <span itemprop="name">Alex Bilbie</span>
+                            </span>
+                            <span itemprop="copyrightYear">
+                                2013
+                            </span>
+                            &middot;
+                            <a href="https://twitter.com/alexbilbie">Follow me on Twitter</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </footer>
 
