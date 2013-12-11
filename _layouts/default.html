@@ -96,7 +96,7 @@
                                 <li>
                                     <span class="glyphicon glyphicon-align-justify"></span> {{ page.content | number_of_words }} words
                                 <li>
-                                {% if post.tags != empty %}
+                                {% if page.tags != empty %}
                                 <li>
                                     <span class="glyphicon glyphicon-tags"></span>
                                     {{ page.tags | array_to_sentence_string }}
