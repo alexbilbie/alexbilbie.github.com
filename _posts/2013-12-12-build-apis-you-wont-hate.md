@@ -6,6 +6,6 @@ layout: default
 link: https://leanpub.com/build-apis-you-wont-hate
 ---
 
-[Phil Sturgeon](http://philsturgeon.co.uk/) is writing a book entity _Build APIs you won't hate_ and I'm helping him as a "technical reviewer".
+[Phil Sturgeon](http://philsturgeon.co.uk/) is writing a book entitled _Build APIs you won't hate_ and I'm helping him as a technical reviewer.
 
 He's trying to work on a chapter a week and it's starting to shape up nicely. Go buy a copy!
