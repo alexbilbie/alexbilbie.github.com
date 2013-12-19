@@ -3543,9 +3543,9 @@ article .bodytext {
 }
 article .bodytext figure {
   margin: 0;
-  background: #F00;
   width: 110%;
   margin-left: -5%;
+  text-align: center;
 }
 article .bodytext img {
   max-width: 100%;
