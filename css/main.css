@@ -3590,6 +3590,7 @@ article .bodytext .embed-container {
   /* IE6 workaround*/
   height: 0;
   overflow: hidden;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 article .bodytext .embed-container iframe,
