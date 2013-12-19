@@ -3557,6 +3557,22 @@ article .bodytext a {
   color: black;
   text-decoration: underline;
 }
+article .bodytext .line-numbers {
+  display: inline-block;
+  margin-right: 15px;
+}
+article .bodytext .line-numbers a {
+  text-decoration: none;
+}
+article .bodytext dd {
+  padding: 0 0 20px;
+}
+article .bodytext dd a {
+  text-decoration: none;
+}
+article .bodytext dd a:hover {
+  text-decoration: underline;
+}
 article .bodytext .embed-container {
   position: relative;
   padding-bottom: 56.25%;
