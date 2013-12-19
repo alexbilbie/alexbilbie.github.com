@@ -1,6 +1,6 @@
 ---
 title: "Using Vagrant and Ansible for distributing educational course virtual machines"
-date: "2013-12-19 11:50:00
+date: "2013-12-19 11:50:00"
 layout: default
 ---
 
