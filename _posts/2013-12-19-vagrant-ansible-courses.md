@@ -8,7 +8,7 @@ published: false
 
 [Tony Hirst](http://blog.ouseful.info/2013/12/02/packaging-software-for-distance-learners-vms-101/) wrote an article on his blog recently that I'd somehow missed in my RSS reader but in any case I'd like to quickly respond to it.
 
-In the post - ["Cursory Thoughts on Virtual Machines in Distance Education Courses"](http://blog.ouseful.info/2013/12/02/packaging-software-for-distance-learners-vms-101/) - Tony discuses using virtual machines in courses to help distribute software and operating systems to students who increasingly more and more are bringing in very different devices.
+In ["Cursory Thoughts on Virtual Machines in Distance Education Courses"](http://blog.ouseful.info/2013/12/02/packaging-software-for-distance-learners-vms-101/) Tony discuses using virtual machines in courses to help distribute software and operating systems to students who increasingly more and more are bringing in very different devices.
 
 This is a common problem is development teams as well, in my current workplace two of us develop on Macs, another uses Ubuntu and our designer uses Windows; therefore it is important for us to have a virtual environment that works for all of us regardless of the underlying operating system we use.
 
