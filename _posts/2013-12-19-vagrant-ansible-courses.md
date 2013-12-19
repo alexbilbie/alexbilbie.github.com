@@ -33,7 +33,7 @@ end
 
 Inside the folder that has the Vagrantfile you just type `vagrant up` and Vagrant will do the following (based on the above config):
 
-1. Download a Vagrant box from http://files.vagrantup.com/lucid32.box (a Vagrant box is essentially a gzipped .img file with it's own Vagrantfile describing the box.
+1. Download a Vagrant box from <http://files.vagrantup.com/lucid32.box> (a Vagrant box is essentially a gzipped .img file with it's own Vagrantfile describing the box).
 2. Save the downloaded box with the name "lucid32" - if in another Vagrantfile you reference "lucid32" it will use the box that has already been downloaded.
 3. Configure the virtual machine to have 512mb of memory, port forward the guest port 80 to the host's port 8080 and then give it a private IP address of 192.168.100.10.
 4. Boot the virtual machine.
