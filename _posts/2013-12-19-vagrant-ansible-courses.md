@@ -2,7 +2,7 @@
 title: "Using Vagrant and Ansible for distributing educational course virtual machines"
 date: "2013-12-19 11:50:00"
 layout: default
-published: false
+published: true
 ---
 
 
@@ -81,6 +81,6 @@ Ansible playbooks can include other playbooks so an academic can have a playbook
 
 Together the playbooks and the Vagrantfile can be distributed to the students and assuming they've installed Vagrant and Virtualbox for their OS they can be up and running with identical environments in just a few minutes.
 
-At my workplace we use the same Ansible playbooks for both local development and provisioning our staging and production servers - together with similarly configured Vagrant boxes and VMWare vCloud (our server cloud environment) images we've almost entirely removed the old problem of "but it works on my machine".
+At my workplace we use the same Ansible playbooks for both local development and provisioning our staging and production servers - together with similarly configured Vagrant boxes and VMWare vCloud (our cloud environment) images we've almost entirely removed the old problem of "but it works on my machine".
 
 As well as teaching students a version control system and how to use the command line I think it is vital that all computer science students finish their courses with familiarity of devops tools like Virtualbox, Vagrant, Ansible, and even tools like [Veewee](https://github.com/jedi4ever/veewee) which help build custom Vagrant boxes.
