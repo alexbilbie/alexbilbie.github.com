@@ -3457,6 +3457,15 @@ body {
   font-family: 'Karla', sans-serif;
   color: #676F72;
 }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #333B43;
+}
 #header {
   border-top: 10px solid #4AB8B4;
   background: #556271;
@@ -3538,6 +3547,7 @@ article aside li + li {
   margin-top: 10px;
 }
 article .bodytext {
+  margin-top: 20px;
   font-size: 18px;
   line-height: 27px;
 }
@@ -3580,6 +3590,7 @@ article .bodytext .embed-container {
   /* IE6 workaround*/
   height: 0;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 article .bodytext .embed-container iframe,
 article .bodytext .embed-container object,
