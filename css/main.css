@@ -3554,7 +3554,6 @@ article .bodytext p + p {
   margin-top: 30px;
 }
 article .bodytext a {
-  color: black;
   text-decoration: underline;
 }
 article .bodytext .line-numbers {
@@ -3593,4 +3592,13 @@ article .bodytext .embed-container embed {
 }
 #footer {
   padding: 60px 0;
+}
+code {
+  color: inherit;
+  font-size: 80%;
+  border: 1px solid #CCC;
+  background-color: #F5F5F5;
+}
+pre code {
+  border: none;
 }
