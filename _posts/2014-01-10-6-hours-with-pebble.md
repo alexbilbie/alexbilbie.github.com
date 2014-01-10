@@ -1,5 +1,5 @@
 ---
-title: "6 hours with the Pebble smart-watch"
+title: "6 hours with the Pebble smartwatch"
 date: "2014-01-10 21:59:00"
 layout: default
 --- 
