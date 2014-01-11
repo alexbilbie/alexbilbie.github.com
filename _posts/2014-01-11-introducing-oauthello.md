@@ -25,3 +25,7 @@ So here's my rough plan:
 4. Talk about the whole process at [Croydon Tech City](http://croydontechcity.com/) once it's published.
 
 Here goes!
+
+<div class="embed-container">
+    <iframe src="//www.youtube.com/embed/NTSGp4UdEvQ" frameborder="0" allowfullscreen></iframe>
+</div>
