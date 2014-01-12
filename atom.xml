@@ -1,36 +1,28 @@
 ---
 layout: nil
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Alex Bilbie</title>
-	<link href="http://alexbilbie.com/atom.xml" rel="self"/>
-	<link href="http://alexbilbie.com/"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://alexbilbie.com</id>
-	<author>
-	<name>Alex Bilbie</name>
-	</author>
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
+ <author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
 
-	{% for post in site.posts %}
-		<entry>
-			<title>{% if post.link %}{{ "&rarr;" | xml_escape }} {{ post.title }}{% else %}{{ post.title }}{% endif %}</title>
-			{% if post.link %}
-				<link href="{{ post.link }}"/>
-			{% else %}
-				<link href="http://alexbilbie.com{{ post.url }}?utm_source=atom&amp;utm_medium=atom&amp;utm_campaign=atom"/>
-			{% endif %}
-
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://alexbilbie.com{{ post.id }}</id>
-			<content type="html">
-				{{ post.content | xml_escape }}
-
-				{% capture permalink %}<p><a href="http://alexbilbie.com{{ post.url }}?utm_source=atom&amp;utm_medium=atom&amp;utm_campaign=atom">∞ Permalink</a</p>{% endcapture %}
-				{{ permalink | xml_escape }}
-			</content>
-		</entry>
-	{% endfor %}
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
 
 </feed>

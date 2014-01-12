@@ -1,0 +1,49 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>{{ site.title }}</h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+        <a href="/">Home</a>
+      </li>
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <li class="sidebar-nav-item">
+        <a href="/rss.xml">
+            RSS Feed
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="https://twitter.com/alexbilbie">
+            Twitter
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="https://github.com/alexbilbie">
+            Github
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a style="display:none" href="https://plus.google.com/106902288334016085614?rel=author">
+            Google+
+        </a>
+      </li>
+
+    </ul>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>

@@ -1,94 +1,45 @@
 ---
-layout: home
-title: "Home"
+layout: default
+title: Home
 ---
 
-{% for post in paginator.posts %}
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
 
-    <article data-layout="post" itemtype="http://schema.org/BlogPosting">
+      {% if post.link %}
+        <a href="{{ post.link }}">
+          {{ post.title }} &rarr;
+        </a>
+      {% else %}
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      {% endif %}
 
-        <div class="row">
+    </h1>
 
-            <hgroup class="col-md-8">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-                <h1 itemprop="name">
-                    {% if post.link %}
-                        <a href="{{ post.link }}">
-                            <span class="glyphicon glyphicon-link"></span> {{ post.title }}
-                        </a>
-                    {% else %}
-                        <a href="{{ post.url }}" itemprop="url">
-                            {{ post.title }}
-                        </a>
-                    {% endif %}
-                </h1>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-            </hgroup>
-
-            <aside class="col-md-3 col-md-offset-1">
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%e %B %Y" }}
-                        </li>
-                        <li>
-                            <span class="glyphicon glyphicon-align-justify"></span> {{ post.content | number_of_words }} words
-                        </li>
-                        {% if post.tags != empty %}
-                        <li>
-                            <span class="glyphicon glyphicon-tags"></span>
-                            {{ post.tags | array_to_sentence_string }}
-                        </li>
-                        {% endif %}
-                        <li>
-                            <span class="glyphicon glyphicon-pushpin"></span>
-                            <a href="{{ post.url }}">Permalink</a>
-                        </li>
-                    </ul>
-
-                    <meta itemprop="author" content="Alex Bilbie">
-                    <meta itemprop="dateCreated" content="{{ post.date | date: "%Y-%m-%d" }}">
-            </aside>
-
-        </div>
-
-        <div class="row">
-
-            <div itemprop="text" class="bodytext col-md-12">
-
-                {{ post.content }}
-
-            </div>
-
-        </div>
-
-    </article>
-{% endfor %}
-
-<div class="row">
-
-    <div class="col-md-12">
-
-        <ul class="pager">
-            {% if paginator.previous_page %}
-                {% if paginator.previous_page == 1 %}
-                    <li class="previous"><a href="/">&laquo; Previous page</a></li>
-                {% else %}
-                    <li class="previous"><a href="/page{{paginator.previous_page}}">&laquo; Previous page</a></li>
-                {% endif %}
-            {% else %}
-                <li class="previous disabled"><a href="#">&laquo; Previous page</a></li>
-            {% endif %}
-
-            <!-- <li><a href="#">Page: {{paginator.page}} of {{paginator.total_pages}}</a></li> -->
-
-            {% if paginator.next_page %}
-                <li class="next"><a href="/page{{paginator.next_page}}">Next page&raquo;</a></li>
-            {% else %}
-                <li class="next disabled"><a href="#">Next page&raquo;</a></li>
-            {% endif %}
-        </ul>
-
-    </div>
-
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
