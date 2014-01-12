@@ -18,6 +18,19 @@
   <link rel="stylesheet" href="/public/css/alex.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
+  <meta name="description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:500 }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@alexbilbie">
+  <meta name="twitter:title" content="{{ page.title }} &middot; The blog of Alex Bilbie">
+  <meta name="twitter:description" content="{{ content | strip_html | escape_once | strip_newlines | truncate:199 }}">
+  <meta name="twitter:creator" content="@alexbilbie">
+  <meta name="twitter:domain" content="alexbilbie.com">
+  <meta name="twitter:image:src" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100">
+  <meta name="og:title" content="{{ page.title }} &middot; The blog of Alex Bilbie">
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100" />
+
   <link rel="shortcut icon" href="/favicon.ico">
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
