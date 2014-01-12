@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Star Wars spinoff films announced
 link: http://starwars.com/news/new-spinoff-films-set-to-expand-the-star-wars-galaxy.html

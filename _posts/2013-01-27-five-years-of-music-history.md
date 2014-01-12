@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 link: http://blog.hypem.com/2013/01/time-machine-dive-into-5-years-of-music-history/
 title: "Hype Machine: Dive into 5 years of music history"

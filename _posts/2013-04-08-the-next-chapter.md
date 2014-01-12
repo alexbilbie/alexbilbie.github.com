@@ -2,7 +2,7 @@
 title: "So long, and thanks for all of the fish!"
 date: "2013-04-08 11:00:00"
 permalink: /2013/04/so-long-and-thanks-for-all-of-the-fish/
-layout: default
+layout: post
 published: true
 ---
 

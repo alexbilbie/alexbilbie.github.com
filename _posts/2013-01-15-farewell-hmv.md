@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Farewell HMV
 permalink: /2013/01/farewell-hmv/

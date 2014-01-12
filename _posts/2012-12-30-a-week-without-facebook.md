@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "A week without Facebook"
 permalink: /2012/12/a-week-without-facebook/

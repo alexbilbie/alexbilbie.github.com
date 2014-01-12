@@ -1,8 +1,8 @@
 ---
 title: "6 hours with the Pebble smartwatch"
 date: "2014-01-10 21:59:00"
-layout: default
---- 
+layout: post
+---
 
 <figure>
 ![My new Pebble watch](http://distilleryimage11.ak.instagram.com/8a0f19427a1511e398f612f9a6a6a72b_8.jpg)

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Living with HTTPS
 permalink: /2013/01/living-with-https/

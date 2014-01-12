@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 link: http://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/
 title: "Star Wars: Machete Order"

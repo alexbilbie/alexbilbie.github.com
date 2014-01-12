@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "Boris Johnson on the EU's plan to cap bankers bonuses"
 permalink: /2013/02/boris-opinion/

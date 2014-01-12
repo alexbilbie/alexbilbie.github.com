@@ -1,7 +1,7 @@
 ---
 title: Securing your API with OAuth 2.0
 permalink: /2013/02/securing-your-api-with-oauth-2/
-layout: default
+layout: post
 published: true
 date: "2013-02-22 12:04:00"
 ---

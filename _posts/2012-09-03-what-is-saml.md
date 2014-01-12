@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: What is SAML?
 permalink: /2012/09/what-is-saml/
 ---

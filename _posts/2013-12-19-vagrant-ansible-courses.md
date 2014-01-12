@@ -1,7 +1,7 @@
 ---
 title: "Using Vagrant and Ansible for distributing educational course virtual machines"
 date: "2013-12-19 11:50:00"
-layout: default
+layout: post
 published: true
 ---
 
@@ -12,7 +12,7 @@ In ["Cursory Thoughts on Virtual Machines in Distance Education Courses"](http:/
 
 This is a common problem is development teams as well, in my current workplace two of us develop on OSX, another uses Ubuntu and our designer uses Windows; therefore it is important for us to have a development environment that works for all of us regardless of the operating system we use.
 
-At the very end of the article Tony mentions using [Vagrant](http://vagrantup.com/) which is a small piece of software to help "create and configure lightweight, reproducible, and portable development environments". Essentially you write a small document in Ruby called a _Vagrantfile_ to describe a virtual machine and then Vagrant will download, configure and spin-up that virtual machine in Virtualbox or VMWare or other Virtualisation software. 
+At the very end of the article Tony mentions using [Vagrant](http://vagrantup.com/) which is a small piece of software to help "create and configure lightweight, reproducible, and portable development environments". Essentially you write a small document in Ruby called a _Vagrantfile_ to describe a virtual machine and then Vagrant will download, configure and spin-up that virtual machine in Virtualbox or VMWare or other Virtualisation software.
 
 A Vagrantfile looks like this:
 
@@ -60,16 +60,16 @@ You could express it like this:
 
 - name: update apt
   command: /usr/bin/apt-get update
-  
+
 - name: install web server packages
   action: apt pkg=$item state=installed
   with_items:
-  	- httpd 
+  	- httpd
   	- php
 
 - name: allow port 80
   command: /usr/sbin/ufw allow http
-  
+
 - name: flush firewall
   command: /usr/sbin/ufw reload
 

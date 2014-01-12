@@ -2,7 +2,7 @@
 published: true
 title: "Build APIs you won't hate"
 date: "2013-12-12 13:40:00"
-layout: default
+layout: post
 link: https://leanpub.com/build-apis-you-wont-hate
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Learning SPARQL
 permalink: /2012/04/learning-sparql/
 ---

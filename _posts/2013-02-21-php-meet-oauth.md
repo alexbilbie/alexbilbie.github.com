@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "PHP, meet OAuth 2.0"
 permalink: /2013/02/php-meet-oauth-2/
 ---

@@ -1,7 +1,7 @@
 ---
 title: "How to securely store OAuth access tokens in single page JavaScript web apps"
 date: "2013-09-06 11:04:00"
-layout: default
+layout: post
 published: true
 ---
 

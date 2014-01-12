@@ -1,6 +1,6 @@
 ---
 published: true
-layout: default
+layout: post
 title: Talking all things OAuth 2.0 on PHP Town Hall Podcast
 link: "http://phptownhall.com//blog/2013/07/10/episode-9-is-oauth-2-the-devil/"
 date: "2013-07-10 20:41:00"

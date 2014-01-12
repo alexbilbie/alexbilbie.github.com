@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Exclude objects with .gitattributes
 permalink: /2012/11/exclude-objects-with-gitattributes/
 ---

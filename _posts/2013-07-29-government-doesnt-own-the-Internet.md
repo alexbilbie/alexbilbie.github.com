@@ -1,6 +1,6 @@
 ---
 published: true
-layout: default
+layout: post
 link: "https://www.gov.uk/government/news/prime-ministers-speech-on-cyberspace"
 title: "&ldquo;Government doesn’t own the internet, or run the internet, or shape the internet.&rdquo;"
 date: "2013-07-29 14:46:00"

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "J.J. Abrams to direct Star Wars: Episode VII"
 link: http://starwars.com/news/star-wars-is-being-kick-started-with-dynamite-jj-abrams-to-direct-star-wars-episode-vii.html
@@ -12,4 +12,6 @@ Having said this whole Disney/LucasFilm/Bad Robot relationship thing is a bit un
 
 "Episode VII: Pirates of the Dagobah System" might be cool though.
 
+<figure>
 ![http://i.imgur.com/wiTAEdG.jpg](http://i.imgur.com/wiTAEdG.jpg)
+</figure>

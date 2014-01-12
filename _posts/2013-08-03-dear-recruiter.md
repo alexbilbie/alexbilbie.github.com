@@ -1,7 +1,7 @@
 ---
 published: true
 link: "http://tracks.ranea.org/post/56897315376/dear-recruiter"
-layout: default
+layout: post
 title: Dear Recruiter
 date: "2013-08-03 11:26:00"
 ---

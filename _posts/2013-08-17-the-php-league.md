@@ -3,10 +3,12 @@ published: true
 link: "http://thephpleague.com/"
 date: "2013-08-17 10:48:00"
 title: "The League of Extraordinary Packages"
-layout: default
+layout: post
 ---
 
+<figure>
 ![http://www.thephpleague.com/images/logo.png](http://www.thephpleague.com/img/logo.png)
+</figure>
 
 Phil Sturgeon and I have been working on a little project for a while called [The League of Extraordinary Packages](http://www.thephpleague.com/):
 

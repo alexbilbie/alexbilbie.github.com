@@ -2,7 +2,7 @@
 title: "Developing an interactive county council election map (part one)"
 permalink: /2013/04/developing-an-interactive-county-council-election-map-part-one/
 date: "2013-04-27 11:00:00"
-layout: default
+layout: post
 published: true
 ---
 
@@ -10,7 +10,9 @@ A few weeks ago I was approached by the guys at [The Lincolnite](http://thelinco
 
 Part one launched yesterday and here’s what I’ve come up with:
 
+<figure>
 ![Elections map](http://alexbilbie.com/images/elections-part-one.png)
+</figure>
 
 Check it out here - [http://thelincolnite.co.uk/elections](http://thelincolnite.co.uk/elections)
 

@@ -1,7 +1,7 @@
 ---
 title: What maketh the man
 permalink: /2012/11/27/what-maketh-the-man/
-layout: default
+layout: post
 ---
 
 When I relaunched this blog I intended to not just talk about technology and code but also some other interests of mine.

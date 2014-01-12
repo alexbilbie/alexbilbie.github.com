@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "What happened to LEGO?"
 permalink: /2013/02/09/what-happened-to-lego/

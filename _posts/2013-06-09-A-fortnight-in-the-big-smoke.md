@@ -1,6 +1,6 @@
 ---
 published: true
-layout: default
+layout: post
 title: A fortnight in the big smoke
 date: "2013-06-09 18:26:00"
 ---

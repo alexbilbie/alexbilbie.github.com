@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: CodeIgniter has a new reactor engineer
 permalink: /2012/05/codeigniter-has-a-new-reactor-engineer/
 ---

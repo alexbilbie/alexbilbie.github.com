@@ -1,7 +1,7 @@
 ---
-title: "Introducing OAuthello, a book about OAuth"  
-date: "2014-01-11 21:58:00"  
-layout: default
+title: "Introducing OAuthello, a book about OAuth"
+date: "2014-01-11 21:58:00"
+layout: post
 ---
 
 <figure>

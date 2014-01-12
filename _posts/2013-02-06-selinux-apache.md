@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Making Apache and SELinux play nice
 permalink: /2013/02/making-apache-selinux-play-nice/

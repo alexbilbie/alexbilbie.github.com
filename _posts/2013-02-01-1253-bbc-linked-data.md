@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 link: http://www.bbc.co.uk/blogs/internet/posts/BBC-News-Lab
 title: "BBC News Lab: Linked data"

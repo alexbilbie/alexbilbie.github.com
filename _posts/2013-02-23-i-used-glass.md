@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 link: http://www.theverge.com/2013/2/22/4013406/i-used-google-glass-its-the-future-with-monthly-updates
 permalink: /2013/02/i-used-glass/

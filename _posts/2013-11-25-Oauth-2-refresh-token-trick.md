@@ -2,7 +2,7 @@
 published: true
 title: A nifty refresh-token trick
 date: "2013-11-25 22:36:00"
-layout: default
+layout: post
 link: https://www.tbray.org/ongoing/When/201x/2013/11/02/Oauth-2-refresh-token-trick
 ---
 

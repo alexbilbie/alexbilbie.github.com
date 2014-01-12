@@ -3,7 +3,7 @@ title: "Facebook’s OAuth problem"
 permalink: /2013/02/facebooks-oauth-problem/
 date: "2013-02-25 11:00:00"
 published: true
-layout: default
+layout: post
 ---
 
 Last week self-proclaimed web security evangelist Egor Homakov published a blog post entitled [How we hacked Facebook with OAuth2 and Chrome bugs](http://homakov.blogspot.co.uk/2013/02/hacking-facebook-with-oauth2-and-chrome.html). Naturally this led to a new round of “OAuth 2.0 is unsecure” comments on news articles that linked to the post.

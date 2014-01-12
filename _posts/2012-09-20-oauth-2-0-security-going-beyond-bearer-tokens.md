@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: OAuth 2.0 Security - Going Beyond Bearer Tokens
 permalink: /2012/09/oauth-2-0-security-going-beyond-bearer-tokens
 ---

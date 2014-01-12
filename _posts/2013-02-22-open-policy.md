@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 date: "2013-02-22 11:50:00"
 title: Open policy documents

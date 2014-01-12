@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 permalink: /2012/10/authentication-in-the-library/
 title: Authentication in the Library
 ---
@@ -40,13 +40,17 @@ This is the list we came up with:
 
 Visually of this looks like:
 
-[![http://i.imgur.com/nEKo4.png](http://i.imgur.com/nEKo4.png)](http://i.imgur.com/nEKo4.png)
+<figure>
+![http://i.imgur.com/nEKo4.png](http://i.imgur.com/nEKo4.png)](http://i.imgur.com/nEKo4.png)
+</figure>
 
 When the UAG is installed we should be able to easily hook up services that require SAM ID and password over LDAP. Other services that use alternative authentication such as HIP will require us to write some middleware that will translate between SAM ID + password to employee ID + PIN.
 
 Assuming it is as simple as that, then when these services are hooked up to the UAG then the map will look like this:
 
+<figure>
 [![http://i.imgur.com/dyV6C.png](http://i.imgur.com/dyV6C.png)](http://i.imgur.com/dyV6C.png)
+</figure>
 
 The model assumes that eventually the UAG will be like a Gateway for users to access most resources.
 

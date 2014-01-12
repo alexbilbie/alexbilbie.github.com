@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: OAuth 2.0 and the road to Hell
 permalink: /2012/07/oauth-2-0-and-the-road-to-hell/
 ---

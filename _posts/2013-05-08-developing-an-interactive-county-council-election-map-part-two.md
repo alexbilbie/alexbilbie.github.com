@@ -1,7 +1,7 @@
 ---
 title: "Developing an interactive county council election map (part two)"
 date: "2013-05-08 09:00:00"
-layout: default
+layout: post
 published: true
 ---
 
@@ -11,7 +11,9 @@ Last Thursday (and Friday) proved to be an interesting day, both for myself and 
 
 Here is how the map looked before and after the election:
 
+<figure>
 ![http://thelincolnite.co.uk/wp-content/uploads/2013/05/comparison.jpg](http://thelincolnite.co.uk/wp-content/uploads/2013/05/comparison.jpg)
+</figure>
 
 On Thursday morning I was interviewed by journalism.co.uk as they were really interested in what The Lincolnite and I had been up to. Check out the article here [http://www.journalism.co.uk/news/hyperlocal-site-the-lincolnite-cover-elections-live-interactive-map/s2/a552859/](http://www.journalism.co.uk/news/hyperlocal-site-the-lincolnite-cover-elections-live-interactive-map/s2/a552859/).
 
@@ -21,33 +23,50 @@ I took a few photos over the course of the night:
 
 When results came in these boards would be updated with the results
 
+<figure>
 ![When results came in these boards would be updated with the results](/images/elections-1.jpg)
+</figure>
 
 The media teams (The Lincolnite team, BBC Radio Lincolnshire and BBC stringers calling the results into London)
 
+<figure>
 ![The media teams](/images/elections-2.jpg)
+</figure>
 
 An example results paper that was filled out and passed around when results were phoned in from across the county
 
-![An example results paper that was filled out and passed around when results were phoned in from across the county](/images/elections-3.jpg)
+<figure>
+![An example results paper that was filled out and passed around when results were phoned in from across the county](
+/images/elections-3.jpg)
+</figure>
 
 Taken around 4am as we waited for the final few results to come in. By this point a few other journalists had turned up as well as successful candidates, political wonks and other interested parties
 
+<figure>
 ![/images/elections-4.jpg](/images/elections-4.jpg)
+</figure>
 
+<figure>
 ![/images/elections-5.jpg](/images/elections-5.jpg)
+</figure>
 
 For the interactive map Daniel (The Lincolnite’s editor) and I really liked the idea of having a “bar of power” across the top of the map which showed a visual makeup of the 77 divisions and was sorted left to right by the parties with the most seats. Each little division was clickable too and zoomed into the map. It also proved a useful way of seeing how many seats were left to be called as some of the divisions such as Stamford	North are tiny to see on the map.
 
+<figure>
 ![/images/elections-part-two-map.png](/images/elections-part-two-map.png)
+</figure>
 
 At 10pm (when voting stops) we switched the map to one that had no colour and just showed the outlines of the different divisions. Every 30 seconds an ajax request polled the server for the latest results and updated the map and bar of power with the winning colour and when a user zoomed into an area it would show the final results.
 
+<figure>
 ![/images/elections-part-two-zoom.png](/images/elections-part-two-zoom.png)
+</figure>
 
 As results came in I sat and updated my very sexy admin interface with the number of votes each candidate received:
 
+<figure>
 ![/images/elections-entry-form.png](/images/elections-entry-form.png)
+</figure>
 
 The Lincolnite team were [running a live blog](http://thelincolnite.co.uk/2013/05/lincolnshire-local-elections-2013-results/) which had the map embedded at the top so for the many readers who were keeping an eye on the page throughout the night they had a nice realtime (ish) experience.
 

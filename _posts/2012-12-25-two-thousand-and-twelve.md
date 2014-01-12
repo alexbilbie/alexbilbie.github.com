@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: 2012
 permalink: /2012/12/two-thousand-and-twelve/

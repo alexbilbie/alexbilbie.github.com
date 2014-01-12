@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "A guide to OAuth 2.0 grants"
 permalink: /2013/02/a-guide-to-oauth-2-grants/

@@ -2,7 +2,7 @@
 link: "http://jonnegroni.com/2013/07/11/the-pixar-theory/"
 title: "The Pixar Theory"
 date: "2013-07-29 22:53:00"
-layout: default
+layout: post
 published: true
 ---
 

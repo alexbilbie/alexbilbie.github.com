@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 link: http://www.kickstarter.com/projects/1081571316/rhino-shield-the-impact-resistant-screen-protector
 permalink: /2013/02/rhino-shield/

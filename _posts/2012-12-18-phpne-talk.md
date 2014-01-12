@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "I'm speaking at PHPNE Conference 2013"
 permalink: /2012/12/phpne-talk/

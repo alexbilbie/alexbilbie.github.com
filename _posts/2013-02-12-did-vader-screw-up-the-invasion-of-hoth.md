@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "Did Vader screw up the invasion of Hoth?"
 link: http://www.wired.com/dangerroom/2013/02/battle-of-hoth/

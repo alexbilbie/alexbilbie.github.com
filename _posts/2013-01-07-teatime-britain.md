@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 link: http://www.bbc.co.uk/britainfromabove/stories/people/teatimebritain.shtml
 title: Power surges in Britain caused by millions of people making tea

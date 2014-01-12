@@ -3,7 +3,7 @@ published: true
 title: "Open data FTW!"
 date: "2013-09-24 09:53:00"
 link: "http://www.ordnancesurvey.co.uk/innovate/developers/minecraft-map-britain.html"
-layout: default
+layout: post
 ---
 
 <figure>

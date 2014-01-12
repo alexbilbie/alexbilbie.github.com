@@ -1,6 +1,6 @@
 ---
 published: true
-layout: default
+layout: post
 title: Good Data Practice
 link: "http://blog.soton.ac.uk/data/2013/06/07/good-data-practice/"
 date: "2013-06-12 11:56:00"

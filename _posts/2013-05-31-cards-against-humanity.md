@@ -1,6 +1,6 @@
 ---
 published: "true"
-layout: default
+layout: post
 title: Eight Nerds Get Rich Off A Game Where Oprah Sobs Into A Lean Cuisine
 link: "http://www.chicagogrid.com/enterprise/cards-against-humanity-game-money/"
 date: "2013-05-31 10:12:00"

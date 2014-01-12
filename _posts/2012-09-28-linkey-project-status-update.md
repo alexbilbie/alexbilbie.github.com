@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 permalink: /2012/09/linkey-project-status-update
 title: Linkey Project Status Update 1
 ---
@@ -16,11 +16,15 @@ The main clients for Linkey are the university library and they have already sta
 
 With a production UAG we should be able to hook up a large percentage of sites and services with relative ease. As a refresher here is the current authentication situation:
 
+<figure>
 ![https://raw.github.com/lncd/AIM-project/master/SSOCurrentSituation.png](https://raw.github.com/lncd/AIM-project/master/SSOCurrentSituation.png)
+</figure>
 
 and here is the ideal situation which we should be able to achieve:
 
+<figure>
 ![https://raw.github.com/lncd/AIM-project/master/SSOIdealSituation.png](https://raw.github.com/lncd/AIM-project/master/SSOIdealSituation.png)
+</figure>
 
 Over the next 9 months there are a few other areas of access and identity which I want to cover.
 

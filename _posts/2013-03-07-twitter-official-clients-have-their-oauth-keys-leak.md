@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 permalink: /2013/03/twitter-official-clients-have-their-oauth-keys-leak/
 title: "Twitter's official clients have their OAuth keys leak"

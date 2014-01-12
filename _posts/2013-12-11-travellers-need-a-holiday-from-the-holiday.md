@@ -2,7 +2,7 @@
 published: true
 title: "Sometimes, travellers need a holiday from the holiday"
 date: "2013-12-11 23:29:00"
-layout: default
+layout: post
 link: http://riseandshinepaps.wordpress.com/2013/12/05/a-holiday-from-the-holiday/
 ---
 

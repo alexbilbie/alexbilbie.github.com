@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "How hackers changed the world: We Are Legion"
 link: http://www.bbc.co.uk/i/b01qxmwp/

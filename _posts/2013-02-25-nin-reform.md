@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: "Nine Inch Nails returns!"
 permalink: /2013/02/nin-reform/
