@@ -28,10 +28,12 @@
   <meta name="twitter:domain" content="alexbilbie.com">
   <meta name="twitter:image:src" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100">
 
-  <meta name="og:title" content="{{ page.title }}">
-  <meta property="og:url" content="{{ page.url }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100" />
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://2.gravatar.com/avatar/14902eb1dac66b8458ebbb481d80f0a3?s=100">
+  <meta property="og:description" content="{{ page.content | markdownify | strip_html | escape_once | truncate:199 }}">
+  <meta property="og:site_name" content="alexbilbie.com">
 
   <link rel="shortcut icon" href="/favicon.ico">
 
