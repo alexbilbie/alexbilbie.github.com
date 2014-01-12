@@ -16,6 +16,8 @@ permalink: /archive/
 {% if year != nyear %}
 </dl>
 
+---
+
 <h3>Posts from {{ post.date | date: '%Y' }}</h3>
 
 <dl class="dl-horizontal">
