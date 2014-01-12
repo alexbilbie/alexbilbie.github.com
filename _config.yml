@@ -1,6 +1,18 @@
-pygments: true
-permalink: /:year/:month/:title
-auto: true
-paginate: 5
-# paginate_path: /page/:num
-markdown: rdiscount
+# Dependencies
+markdown:         rdiscount
+pygments:         true
+
+# Permalinks
+permalink:        /:year/:month/:title
+
+# Setup
+title:            Alex Bilbie
+tagline:          'Developer, Speaker, Whisky Drinker'
+description:      'Developer, Speaker, Whisky Drinker'
+url:              http://localhost:4000
+
+author:
+  name:           'Alex Bilbie'
+  url:            https://twitter.com/alexbilbie
+
+paginate:         5
