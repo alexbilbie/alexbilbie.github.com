@@ -5,7 +5,7 @@ permalink: /archive/
 ---
 
 
-<h3>This year's posts</h3>
+<h3>Posts I've written this year</h3>
 
 {%for post in site.posts %}
 {% unless post.next %}
