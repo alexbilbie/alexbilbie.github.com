@@ -18,7 +18,7 @@ permalink: /archive/
 
 ---
 
-<h3>Posts from {{ post.date | date: '%Y' }}</h3>
+<h3>Posts I wrote in {{ post.date | date: '%Y' }}</h3>
 
 <dl class="dl-horizontal">
 {% endif %}
