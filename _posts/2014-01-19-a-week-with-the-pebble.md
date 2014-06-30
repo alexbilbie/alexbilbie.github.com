@@ -4,7 +4,7 @@ date: "2014-01-18 13:03:00"
 layout: post
 ---
 
-Just over a week ago my Pebble smartwatch arrived and [I wrote up my initial thoughts]((/2014/01/6-hours-with-pebble/). Having used it for a week now I thought I'd write up some further observations.
+Just over a week ago my Pebble smartwatch arrived and [I wrote up my initial thoughts](/2014/01/6-hours-with-pebble/). Having used it for a week now I thought I'd write up some further observations.
 
 I said that my initial reason for buying the Pebble was so I could use it as actual watch and I'm slowly getting used to doing so though out of force of habit I still find myself reaching for my phone sometimes but I assume over time this will change.
 
