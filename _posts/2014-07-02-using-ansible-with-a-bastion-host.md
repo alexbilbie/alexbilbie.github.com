@@ -4,8 +4,6 @@ layout: post
 date: "2014-07-02 10:30:00"
 ---
 
-# Using Ansible with a bastion SSH host
-
 A common network security design pattern is to prevent any connections to your application servers from outside of their private subnet, and then using a [bastion host](http://en.wikipedia.org/wiki/Bastion_host) hosted in a [DMZ](http://en.wikipedia.org/wiki/DMZ_(computing)) to selectively whitelist traffic to the servers.
 
 We have such a setup for one of our server pools through which we only allow SSH traffic from specific IP addresses. These servers are also provisioned via [Ansible](http://www.ansible.com/) which programatically configures servers via SSH.
