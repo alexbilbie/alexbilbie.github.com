@@ -64,6 +64,8 @@ Host *
     IdentityFile           /path/to/ssh/key.pem
 ```
 
+First the configuration for connecting to the bastion host is declared. Beneath that is a catch-all for all other hosts which in the `ProxyCommand` says to first connect to the bastion host then use netcat (`nc`) to pass the Ansible commands to the application server.
+
 From the `devops` folder I can run `ssh bastion -F ssh.config` and I will be immediately connected to the bastion server.
 
 Next Ansible needs to be told to use this custom SSH config when connecting to the application servers.
