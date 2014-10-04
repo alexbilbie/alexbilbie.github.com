@@ -18,68 +18,11 @@ So as I started on another project this week I spend some time finally building 
 
 Here is a simple example of how to use Proton with anonymous functions:
 
-```php
-// index.php
-<?php
-
-require __DIR__.'/../vendor/autoload.php';
-
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
-
-$app = new Proton\Application();
-
-$app->get('/', function ($request, $response) {
-    $response->setContent('<h1>It works!</h1>');
-    return $response;
-});
-
-$app->get('/hello/{name}', function (Request $request, Response $response, $args) {
-    $response->setContent(
-        sprintf('<h1>Hello, %s!</h1>', $args['name'])
-    );
-    return $response;
-});
-
-$app->run();
-```
+<script src="https://gist.github.com/alexbilbie/2ab3b3c23b025dd70032.js"></script>
 
 And another with controllers:
 
-
-```php
-// index.php
-<?php
-
-require __DIR__.'/../vendor/autoload.php';
-
-$app = new Proton\Application();
-
-$app['HomeController'] = function () {
-    return new HomeController();
-});
-
-$app->get('/', 'HomeController@index');
-
-$app->run();
-```
-
-```php
-// HomeController.php
-<?php
-
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
-
-class HomeController
-{
-    public function index(Request $request, Response $response, array $args)
-    {
-        $response->setContent('<h1>It works!</h1>');
-        return $response;
-    }
-}
-```
+<script src="https://gist.github.com/alexbilbie/234efa329cd0c8348dc0.js"></script>
 
 Why did I build yet another micro framework? Why not just use Slim or Silex or some other micro framework?
 
@@ -107,26 +50,7 @@ As long as each middleware (and the application itself) implements HttpKernelInt
 
 These middlewares can easily be with Proton too:
 
-```php
-// index.php
-<?php
-require __DIR__.'/../vendor/autoload.php';
-
-$app = new Proton\Application();
-
-$app->get('/', function ($request, $response) {
-    $response->setContent('<h1>It works!</h1>');
-    return $response;
-});
-
-$stack = (new Stack\Builder())
-    ->push('Some/MiddleWare'); // this will execute first
-    ->push('Some/MiddleWare') // this will execute second
-    ->push('Some/MiddleWare'); // this will execute third
-
-$app = $stack->resolve($app);
-Stack\run($app); // the app itself will execute last
-```
+<script src="https://gist.github.com/alexbilbie/dda1ece33134adbf4bf6.js"></script>
 
 The StackPHP website has a number of useful [middlewares built by the community](http://stackphp.com/middlewares/), as well as [some others](http://stackphp.com/toolbox/) that help with the decoration of the layers ([StackPHP/Builder](https://github.com/stackphp/builder)) and implement sessions in requests ([StackPHP/Session](https://github.com/stackphp/session)). There are also [four work-in-progress conventions and protocols](http://stackphp.com/specs/) that ensure interoperability between disparate middlewares.
 
