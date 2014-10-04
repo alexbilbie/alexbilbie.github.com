@@ -24,6 +24,8 @@ And another with controllers:
 
 <script src="https://gist.github.com/alexbilbie/234efa329cd0c8348dc0.js"></script>
 
+<script src="https://gist.github.com/alexbilbie/eb5d6d64f15d3bab47a3.js"></script>
+
 Why did I build yet another micro framework? Why not just use Slim or Silex or some other micro framework?
 
 Principally because I really like the particular packages above that I've already mentioned; I know their codebases very well and they're blazing fast. Also those other frameworks all offer features that I don't need; I like my code lean and mean and I don't want unnecessary overhead.
