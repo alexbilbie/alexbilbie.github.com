@@ -1,5 +1,5 @@
 ---
-title: "Responding to responses about my job title"
+title: "Responding to reactions towards my job title"
 date: "2014-11-04 12:40:00"
 layout: post
 ---
