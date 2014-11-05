@@ -8,20 +8,12 @@ This afternoon I've been playing with the Facebook API in a Vagrant box but requ
 
 The following request would take `5.5221911907196s` inside Vagrant:
 
-```php
-<?php
-$t = microtime(true);
-file_get_contents('https://graph.facebook.com/v2.2/me?access_token={{access token}}');
-var_dump(microtime(true) - $t);
-```
+<script src="https://gist.github.com/alexbilbie/7f35b1e6abd0a14c85fc.js"></script>
+
 But on my rMBP the same request took just `0.16792297363281s`.
 
 After a bit of Googling around I found that you can tell Virtualbox (through the `Vagrantfile`) to use the host as the DNS resolver:
 
-```ruby
-config.vm.provider "virtualbox" do |v|
-  v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-end
-```
+<script src="https://gist.github.com/alexbilbie/b93793fe5c52b8d652db.js"></script>
 
 After a quick `vagrant reload` the request took just `0.15842008590698s`
