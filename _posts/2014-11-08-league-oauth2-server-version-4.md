@@ -20,6 +20,8 @@ In addition I've made use of Symfony's Request class from `symfony/http-foundati
 
 [The server now emits events](http://oauth2.thephpleague.com/authorization-server/events/) which can be used to further integrate the library into your own application. For example the `session.owner` event is fired when a session has been allocated an owner - you might want to listen to this event to automatically add extra scopes (permissions) if the owner is an administrator. All of the events stuff is powered by the lovely `league/events` by Frank de Jonge.
 
+All the code has been tested on the latest versions of PHP and HHVM too.
+
 Finally, and probably most importantly there is some extensive documentation which can be found here - [http://oauth2.thephpleague.com](http://oauth2.thephpleague.com).
 
 I'd like to thank everyone who has contributed to v4's development - especially [Luca Degasperi](https://twitter.com/lucadegasperi) and [Jason Lewis](https://twitter.com/jasonclewis) and all the guys at the [PHP League of Extraordinary Packages](http://thephpleague.com) for their support, nagging and bug fixes.
