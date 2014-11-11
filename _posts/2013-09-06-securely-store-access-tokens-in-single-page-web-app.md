@@ -5,6 +5,10 @@ layout: post
 published: true
 ---
 
+### Please see my updated post here which explains my thoughts here in greater detail - [http://alexbilbie.com/2014/11/oauth-and-javascript/](http://alexbilbie.com/2014/11/oauth-and-javascript/)
+
+---
+
 A question I'm asked frequently is how developers should securely store OAuth access tokens and client credentials in a single page JavaScript webapp.
 
 Here's the answer: you can't.
