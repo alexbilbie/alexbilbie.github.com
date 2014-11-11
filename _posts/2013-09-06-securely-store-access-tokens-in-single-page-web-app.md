@@ -5,6 +5,8 @@ layout: post
 published: true
 ---
 
+---
+
 ### Please see my new post which explains my thoughts here in greater detail - [http://alexbilbie.com/2014/11/oauth-and-javascript/](http://alexbilbie.com/2014/11/oauth-and-javascript/)
 
 ---
