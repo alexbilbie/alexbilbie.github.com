@@ -101,7 +101,6 @@ To authenticate the user in the first place the web-app will make a request to t
 
 ```
 POST /ajax/auth HTTP/1.1
-Authorization: Bearer DDSHs55zpG51Mtxnt6H8vwn5fVJ230dF
 Host: example.com
 
 username=alexbilbie
