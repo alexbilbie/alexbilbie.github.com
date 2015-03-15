@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         rdiscount
-highlighter:      true
+highlighter:      pygments
 
 # Permalinks
 permalink:        /:year/:month/:title
