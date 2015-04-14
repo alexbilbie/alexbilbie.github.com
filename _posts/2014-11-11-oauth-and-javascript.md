@@ -152,7 +152,7 @@ Host: api.example.com
 
 The proxy will pass the response straight back to the browser.
 
-With this setup there are no publicly visible or plain text client credentials or tokens which means that attackers won't be make faked requests to the API. Also because the browser is no longer communicating with the API directly you can remove it from the public Internet and lock down the firewall rules so that only requests coming from the web server directly will be allowed.
+With this setup there are no publicly visible or plain text client credentials or tokens which means that attackers won't be able to make faked requests to the API. Also because the browser is no longer communicating with the API directly you can remove it from the public Internet and lock down the firewall rules so that only requests coming from the web server directly will be allowed.
 
 To protect an attacker just stealing the cookie you can use CSRF protection measures.
 
