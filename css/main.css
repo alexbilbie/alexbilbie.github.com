@@ -634,6 +634,7 @@ code {
   background-color: #f9f2f4;
   white-space: nowrap;
   border-radius: 4px;
+  word-break: break-word;
 }
 pre {
   display: block;
