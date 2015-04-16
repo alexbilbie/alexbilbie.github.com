@@ -64,3 +64,8 @@ figure img {
 .sidebar-about h1 {
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
+code {
+    word-break: break-word;
+}
+}
