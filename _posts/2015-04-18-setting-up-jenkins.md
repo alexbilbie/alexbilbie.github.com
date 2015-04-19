@@ -12,11 +12,9 @@ Once I've installed and setup Jenkins I'm going to create a job to test [my Prot
 
 ## Setup the server
 
-First create a new Digital Ocean droplet (I've used a $5/month 512mb box but if you're going to use Jenkins for multiple production projects I recommend you use a server with at least 2gb of RAM) to keep your builds speedy.
+First create a new Ubuntu server - I've used a $5/month 512mb box but if you're going to use Jenkins for multiple production projects I recommend you use a server with at least 2gb of RAM to keep your builds speedy.
 
-Once the server has powered up then SSH in.
-
-We're going to need a few tools installed:
+Once the server has powered up then SSH in. We're going to need a few tools installed:
 
 <script src="https://gist.github.com/alexbilbie/17f0bcf9f33c48164972.js"></script>
 
