@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Jenkins"
+title: "Setup Jenkins and test a PHP project"
 date: "2015-04-19 09:10:00"
 layout: post
 ---
