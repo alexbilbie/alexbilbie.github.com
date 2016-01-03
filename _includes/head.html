@@ -21,7 +21,7 @@
   {% if page.title == 'Home' %}
   <meta name="description" content="The blog of Alex Bilbie">
   {% else %}
-  <meta name="description" content="{{ page.content | markdownify | strip_html | escape_once | truncate:500 }}">
+  <meta name="description" content="{{ page.content | markdownify | strip_html | escape_once | strip_newlines | truncate:500 }}">
   {% endif %}
 
   <meta name="twitter:card" content="summary">
@@ -31,7 +31,7 @@
   {% if page.title == 'Home' %}
   <meta name="twitter:description" content="The blog of Alex Bilbie">
   {% else %}
-  <meta name="twitter:description" content="{{ page.content | markdownify | strip_html | escape_once | truncate:199 }}">
+  <meta name="twitter:description" content="{{ page.content | markdownify | strip_html | escape_once | strip_newlines | truncate:199 }}">
   {% endif %}
   <meta name="twitter:creator" content="@alexbilbie">
   <meta name="twitter:domain" content="alexbilbie.com">
@@ -44,7 +44,7 @@
   {% if page.title == 'Home' %}
   <meta name="og:description" content="The blog of Alex Bilbie">
   {% else %}
-  <meta name="og:description" content="{{ page.content | markdownify | strip_html | escape_once | truncate:199 }}">
+  <meta name="og:description" content="{{ page.content | markdownify | strip_html | escape_once | strip_newlines | truncate:199 }}">
   {% endif %}
   <meta property="og:site_name" content="alexbilbie.com">
 
