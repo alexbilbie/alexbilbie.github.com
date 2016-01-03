@@ -16,4 +16,4 @@ author:
   url:            https://twitter.com/alexbilbie
 
 paginate:         10
-gems:             [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+gems:             [jekyll-paginate, jekyll-gist, jekyll-sitemap, jekyll-redirect-from]
