@@ -1,0 +1,18 @@
+---
+php:
+  name: PHP Articles
+  sidebar: true
+oauth:
+  name: OAuth Articles
+  sidebar: true
+ansible:
+  name: Ansible Articles
+  sidebar: true
+devops:
+  name: Devops Articles
+  sidebar: true
+hacks:
+  name: Things I've Made
+  sidebar: true
+podcast:
+  name: Podcast Appearances
