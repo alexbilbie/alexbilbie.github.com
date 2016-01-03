@@ -2,6 +2,7 @@
 layout: post
 title: OAuth 2.0 has been standardised
 permalink: /2012/10/oauth-2-0-has-been-standardised/
+tags: [oauth]
 ---
 
 The IETF has approved the OAuth 2.0 Core and Bearer specifications and have now been published as [RFC 6749](http://tools.ietf.org/html/rfc6749) (Core) and [RFC 6750](http://tools.ietf.org/html/rfc6750) (Bearer).

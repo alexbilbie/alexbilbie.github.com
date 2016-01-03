@@ -2,6 +2,7 @@
 title: What is OAuth?
 layout: post
 permalink: /2012/07/what-is-oauth/
+tags: [oauth]
 ---
 
 The [OAuth website](http://oauth.org) describes OAuth as:

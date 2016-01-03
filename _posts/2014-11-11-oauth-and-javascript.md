@@ -3,6 +3,7 @@ title: "OAuth and Single Page JavaScript Web-Apps"
 date: "2014-11-11 11:01:00"
 layout: post
 permalink: /2014/11/oauth-and-javascript/
+tags: [oauth]
 ---
 
 Earlier today I tweeted:

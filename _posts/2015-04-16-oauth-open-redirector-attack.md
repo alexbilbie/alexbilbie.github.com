@@ -2,6 +2,7 @@
 title: "OAuth Open Redirector Attack"
 date: "2015-04-16 10:00:00"
 layout: post
+tags: [oauth]
 ---
 
 I'm a little late to writing about this but as reported by Antonio Sanso on [his blog](http://intothesymmetry.blogspot.ch/2015/04/open-redirect-in-rfc6749-aka-oauth-20.html) he found yet another flaw in well known identity providers' OAuth 2.0 implementations.

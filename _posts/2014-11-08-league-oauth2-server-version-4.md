@@ -2,6 +2,7 @@
 title: "Version 4 of league/oauth2-server is out!"
 layout: post
 date: "2014-11-08 18:06:00"
+tags: [oauth, php]
 ---
 
 After almost a year in development I've just tagged version 4.0.0 of [league/oauth2-server](https://github.com/thephpleague/oauth2-server).

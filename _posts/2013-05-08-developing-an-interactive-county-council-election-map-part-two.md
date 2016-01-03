@@ -3,6 +3,7 @@ title: "Developing an interactive county council election map (part two)"
 date: "2013-05-08 09:00:00"
 layout: post
 published: true
+tags: [hacks]
 ---
 
 > This is a follow-up to my first post: [Developing an interactive county council election map (part one)](http://alexbilbie.com/2013/04/developing-an-interactive-county-council-election-map-part-one/).

@@ -2,6 +2,7 @@
 layout: post
 title: Upcoming identity work from Google announcement
 permalink: /2012/10/upcoming-identity-work-from-google/
+tags: [oauth]
 ---
 
 [Tim Bray](http://www.tbray.org/), a developer at Google who I [disagreed with in a previous post](http://linkey.blogs.lincoln.ac.uk/2012/07/13/how-oauth-2-0-works/) has just [posted on his blog](http://www.tbray.org/ongoing/When/201x/2012/10/11/Lets-talk) that the team he is currently working in is going to shortly be announcing some of their early work and thinkings soon.

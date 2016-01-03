@@ -2,6 +2,7 @@
 layout: post
 title: Introducing MongoQB
 permalink: /2012/11/introducing-mongoqb/
+tags: [hacks]
 ---
 
 A few years ago I released a [MongoDB library](https://github.com/alexbilbie/codeigniter-mongodb-library) for the [CodeIgniter](http://codeigniter.com/) PHP framework which has become quite popular thanks to it's likeness to CodeIgniter's query builder library.

@@ -2,6 +2,7 @@
 layout: post
 title: OAuth 2.0 Security - Going Beyond Bearer Tokens
 permalink: /2012/09/oauth-2-0-security-going-beyond-bearer-tokens
+tags: [oauth]
 ---
 
 The OAuth working group have released an initial security review of the OAuth 2.0 specification which looks at a number of potential threats that implementors could face and how to mitigate them.

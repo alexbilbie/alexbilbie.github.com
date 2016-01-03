@@ -3,6 +3,7 @@ title: "Using Vagrant and Ansible for distributing educational course virtual ma
 date: "2013-12-19 11:50:00"
 layout: post
 published: true
+tags: [ansible, devops]
 ---
 
 

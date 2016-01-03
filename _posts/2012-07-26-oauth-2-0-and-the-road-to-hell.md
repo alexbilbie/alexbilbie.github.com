@@ -2,6 +2,7 @@
 layout: post
 title: OAuth 2.0 and the road to Hell
 permalink: /2012/07/oauth-2-0-and-the-road-to-hell/
+tags: [oauth]
 ---
 
 Eran Hammer who, until a few days ago, was the main editor of OAuth 2.0 has written this very damning blog post about the protocol

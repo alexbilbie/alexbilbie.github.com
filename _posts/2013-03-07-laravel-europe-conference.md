@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: "Want a Laracon in Europe?"
 permalink: /2013/03/laravel-europe-conference/
 link: https://heybigname.typeform.com/to/oXujNm

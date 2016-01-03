@@ -2,6 +2,7 @@
 title: "Setup Jenkins and test a PHP project"
 date: "2015-04-19 09:10:00"
 layout: post
+tags: [devops, php]
 ---
 
 After a chat with some other developers on Twitter the other day I offered to write a tutorial on how to setup Jenkins from scratch and create a job to test a PHP project.

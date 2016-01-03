@@ -4,6 +4,7 @@ permalink: /2013/04/developing-an-interactive-county-council-election-map-part-o
 date: "2013-04-27 11:00:00"
 layout: post
 published: true
+tags: [hacks]
 ---
 
 A few weeks ago I was approached by the guys at [The Lincolnite](http://thelincolnite.co.uk) to look into developing an interactive page for the upcoming Lincolnshire County Council elections on the 2nd of May.

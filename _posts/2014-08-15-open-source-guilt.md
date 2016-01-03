@@ -2,6 +2,7 @@
 title: Open Source Guilt
 date: "2014-08-15 13:30:00"
 layout: post
+tags: [php]
 ---
 
 For the past few years I've "maintained" two very popular PHP libraries; an [OAuth 2 Server](https://github.com/thephpleague/oauth2-server) and an [OAuth 2 Client](https://github.com/thephpleague/oauth2-client).

@@ -4,6 +4,7 @@ published: true
 title: "More OAuth pitfalls that you can easily avoid"
 date: "2013-03-15 19:07:00"
 permalink: /2013/03/avoiding-oauth-pitfalls/
+tags: [oauth]
 ---
 
 `<rage>`

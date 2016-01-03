@@ -2,6 +2,7 @@
 title: Introducing Proton
 date: "2014-10-04 17:30:00"
 layout: post
+tags: [php, hacks]
 ---
 
 The last few big projects I've worked on (mostly backend RESTful APIs) have been built with a combination of different packages loaded with Composer instead of building on top of a framework such as Laravel or Symfony.

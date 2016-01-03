@@ -4,6 +4,7 @@ published: true
 permalink: /2013/03/twitter-official-clients-have-their-oauth-keys-leak/
 title: "Twitter's official clients have their OAuth keys leak"
 date: "2013-03-07 15:00:00"
+tags: [oauth]
 ---
 
 Someone [has posted a Github Gist](https://gist.github.com/re4k/3878505) with all of the client identifiers and secret keys for the official Twitter clients on various platforms.

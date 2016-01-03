@@ -4,6 +4,7 @@ published: true
 title: "A guide to OAuth 2.0 grants"
 permalink: /2013/02/a-guide-to-oauth-2-grants/
 date: "2013-02-28 16:15:00"
+tags: [oauth]
 ---
 
 OAuth 2.0 by it’s nature is a very flexible standard and can be adapted to work in many different scenarios. The [core specification](http://tools.ietf.org/html/rfc6749) describes four authorisation grants:
