@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="page">
+
+  {% if site.data.tags[page.tag] %}
+
+    {% assign tagdata = site.data.tags[page.tag] %}
+    <h1 class="page-title">{{ tagdata.name }}</h1>
+
+    {% for post in site.tags[page.tag] %}
+    <dl class="dl-horizontal">
+      <dt style="width:100px">
+        {{ post.date | date:"%b %Y" }}
+      </dt>
+      <dd>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </dd>
+    </dl>
+    {% endfor %}
+
+  {% else %}
+  <p class="lead">There are no posts tagged with "{{ page.tag }}"</p>
+  {% endif %}
+
+</div>
