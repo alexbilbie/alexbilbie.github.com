@@ -16,7 +16,7 @@ First create a new Ubuntu server - I've used a $5/month 512mb box but if you're 
 
 Once the server has powered up then SSH in. We're going to need a few tools installed:
 
-<script src="https://gist.github.com/alexbilbie/17f0bcf9f33c48164972.js"></script>
+{% gist alexbilbie/17f0bcf9f33c48164972 %}
 
 Jenkins runs on port `8080` by default so we're going to setup an Nginx proxy which listens on port `80` and proxies to Jenkins. We'll also point a subdomain at it.
 
