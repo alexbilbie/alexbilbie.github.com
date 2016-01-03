@@ -15,4 +15,5 @@ author:
   name:           'Alex Bilbie'
   url:            https://twitter.com/alexbilbie
 
-paginate:         5
+paginate:         10
+gems:             [jekyll-paginate]
