@@ -16,7 +16,7 @@ You'll need to print the following pages from [the manual](https://atgsupportcen
 
 Or just print this blog post out.
 
-Start off with page 71 and scan the barcode "Scan Suffix 1" (data value `06h`). This will put the scanner into a mode which allows for scanning a four digit code which represents a character (or combination of characters).
+Start off with page 71 and scan the barcode `Scan Suffix 1` (data value `06h`). This will put the scanner into a mode which allows for scanning a four digit code which represents a character (or combination of characters).
 Appendix E of the manual lists all of these codes and you'll find that `6058` represents "Enter".
 
 ![/images/barcode/barcode-scan-suffix-1.png](/images/barcode/barcode-scan-suffix-1.png)
@@ -28,7 +28,7 @@ Next scan each of the barcodes that represent `6`, `0`, `5` and `8`. You'll hear
 ![/images/barcode/barcode-scan-suffix-1.png](/images/barcode/5.png)
 ![/images/barcode/barcode-scan-suffix-1.png](/images/barcode/8.png)
 
-Finally from page 72 scan the barcode entitled "<DATA><SUFFIX 1>" (data value `01h`).
+Finally from page 72 scan the barcode entitled `<DATA><SUFFIX 1>` (data value `01h`).
 
 ![/images/barcode/barcode-scan-suffix-1.png](/images/barcode/data-suffix-1.png)
 
