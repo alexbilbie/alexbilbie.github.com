@@ -10,6 +10,6 @@ Coming just over a year since the last major release, version 5.0 is a complete 
 
 I've rewritten all of the documentation, viewable here - [http://oauth2.thephpleague.com](http://oauth2.thephpleague.com).
 
-I will annouce future release candidates and the final release here on my blog and through [The PHP League twitter account](https://twitter.com/thephpleague).
+I will announce future release candidates and the final release here on my blog and through [The PHP League twitter account](https://twitter.com/thephpleague).
 
 Please feel free to ask questions on the [Github issues page](https://github.com/thephpleague/oauth2-server/issues) and propose changes with a pull request.
