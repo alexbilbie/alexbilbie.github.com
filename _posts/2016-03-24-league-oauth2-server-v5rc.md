@@ -1,5 +1,5 @@
 ---
-title: "Annoucing league/oauth2-server Version 5 RC1"
+title: "Annoucing league/oauth2-server 5.0 RC1"
 date: "2016-03-24 20:00:00"
 layout: post
 ---
