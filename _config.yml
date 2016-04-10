@@ -1,7 +1,3 @@
-# Dependencies
-markdown:         rdiscount
-highlighter:      pygments
-
 # Permalinks
 permalink:        /:year/:month/:title
 
