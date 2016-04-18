@@ -2,6 +2,7 @@
 title: "Annoucing league/oauth2-server 5.0 RC1"
 date: "2016-03-24 20:00:00"
 layout: post
+tags: [oauth]
 ---
 
 **league/oauth2-server** [version 5.0.0 release candidate 1](https://github.com/thephpleague/oauth2-server/releases/tag/5.0.0-RC1) has just been tagged!
