@@ -30,4 +30,4 @@ Check out the new documentation here - [https://oauth2.thephpleague.com](https:/
 
 I'd like to thank [everyone who has contributed](https://github.com/thephpleague/oauth2-server/graphs/contributors?from=2015-08-02&to=2016-04-18&type=c) to this release, especially [Julián Gutiérrez](https://github.com/juliangut) and [Frederik Bosch](https://github.com/frederikbosch).
 
-I'm now an independent software developer so if you'd to hire me to help out with your OAuth or API implementation, or would like a consultation session please send me an email and we can work something out - [hello@glyndelabs.com](mailto:hello@glyndelabs.com).
+I'm now an independent software developer so if you'd like to hire me to help out with your OAuth or API implementation, or would like a consultation session please send me an email and we can work something out - [hello@glyndelabs.com](mailto:hello@glyndelabs.com).
