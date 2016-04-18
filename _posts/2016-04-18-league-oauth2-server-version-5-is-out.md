@@ -22,6 +22,10 @@ Your API endpoints can easily be secured using the resource server PSR-7 middlew
 
 <script src="https://gist.github.com/alexbilbie/face0c52f60c621edd301c2be5c0f1a8.js"></script>
 
+To get started just run:
+
+`composer require league/oauth2-server`
+
 Check out the new documentation here - [https://oauth2.thephpleague.com](https://oauth2.thephpleague.com). If you have any questions please feel free to [open a Github issue](https://github.com/thephpleague/oauth2-server/issues/new).
 
 I'd like to thank [everyone who has contributed](https://github.com/thephpleague/oauth2-server/graphs/contributors?from=2015-08-02&to=2016-04-18&type=c) to this release, especially [Julián Gutiérrez](https://github.com/juliangut) and [Frederik Bosch](https://github.com/frederikbosch).
