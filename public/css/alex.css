@@ -61,6 +61,10 @@ figure img {
     display: inline;
 }
 
+figure.highlight {
+    text-align: left;
+}
+
 .sidebar-about h1 {
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
