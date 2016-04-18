@@ -1,6 +1,8 @@
 ---
 title: "league/oauth2-server version 5.0 is out!"
 date: "2016-04-18 08:00:00"
+layout: post
+tags: [oauth]
 ---
 
 Coming just over a year since the last major release, version 5.0 is a complete code rewrite with many improvements:
