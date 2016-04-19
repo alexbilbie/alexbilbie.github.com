@@ -57,6 +57,11 @@ First an OAuth client (for example the Youtube app) makes a request to the autho
 
 The authorization server then responds with a JSON payload:
 
+    HTTP/1.1 200 OK
+    Content-Type: application/json;charset=UTF-8
+    Cache-Control: no-store
+    Pragma: no-cache
+
     {
         "verification_uri": "https://authorization-server.com/authorize",
         "user_code": "94248",
