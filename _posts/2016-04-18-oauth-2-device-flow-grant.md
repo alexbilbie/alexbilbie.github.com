@@ -1,6 +1,6 @@
 ---
 title: "OAuth 2.0 Device Flow Grant"
-date: "2016-04-18 17:35:00"
+date: "2016-04-19 08:35:00"
 layout: post
 tags: [oauth]
 ---
