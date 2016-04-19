@@ -29,11 +29,11 @@ At the URL displayed on screen you see this (after signing into your Google acco
 Having entered the code presented on the TV screen a standard OAuth authorisation dialog is shown:
 
 <figure>
-    <img src="/images/device-flow/youtube-2.png" title="">
+    <img src="/images/device-flow/youtube-2.png" title="Youtube for Apple TV OAuth permissions authorization screen">
 </figure>
 
 <figure>
-    <img src="/images/device-flow/youtube-3.png" title="">
+    <img src="/images/device-flow/youtube-3.png" title="Return to your device to continue message">
 </figure>
 
 A few seconds after click Allow the Youtube app had refreshed to show my account information.
