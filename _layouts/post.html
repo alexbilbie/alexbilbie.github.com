@@ -6,6 +6,14 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+
+  {% if page.tags contains "oauth" %}
+    <hr>
+    <h3 style="margin-top: 2em">OAuth and API Consulation</h3>
+    <p>
+      If you'd like to hire me to help out with your OAuth or API implementation, or would like some advice or training for you and your team please email me at <a href="mailto:hello@glyndelabs.com">hello@glyndelabs.com</a>.
+    </p>
+  {% endif %}
 </div>
 
 <div class="related">

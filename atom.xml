@@ -21,7 +21,16 @@ layout: nil
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+   	{{ post.content | xml_escape }}
+   	{% if page.tags contains "oauth" %}
+	    <hr>
+	    <h3>OAuth and API Consulation</h3>
+	    <p>
+	      If you'd like to hire me to help out with your OAuth or API implementation, or would like some advice or training for you and your team please email me at <a href="mailto:hello@glyndelabs.com">hello@glyndelabs.com</a>.
+	    </p>
+  	{% endif %}
+   </content>
  </entry>
  {% endfor %}
 
