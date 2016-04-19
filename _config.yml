@@ -3,8 +3,8 @@ permalink:        /:year/:month/:title
 
 # Setup
 title:            Alex Bilbie
-tagline:          'Developer, Speaker, Whisky Drinker'
-description:      'Developer, Speaker, Whisky Drinker'
+tagline:          'Independent Software Developer'
+description:      'Independent Software Developer'
 url:              http://localhost:4000
 
 author:
