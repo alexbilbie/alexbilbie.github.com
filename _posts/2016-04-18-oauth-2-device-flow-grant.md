@@ -14,26 +14,26 @@ Of course if you use the same 8 character password everywhere then it's less of 
 
 There are some apps however - such as Youtube for Apple TV - that have a much better end user experience.
 
-When you sign into the YouTube app you're presented with this screen
+When you sign into the YouTube app you're presented with this screen:
 
 <figure>
-    <img src="/images/device-flow/youtube-apple-tv.png">
+    <img src="/images/device-flow/youtube-apple-tv.png" title="Youtube for Apple TV sign-in screen with text asking the user to go to http://youtube.com/activate and enter a random code">
 </figure>
 
 At the URL displayed on screen you see this (after signing into your Google account):
 
 <figure>
-    <img src="/images/device-flow/youtube-1.png">
+    <img src="/images/device-flow/youtube-1.png" title="Connect a device screen asking the user to enter the code from the Apple TV">
 </figure>
 
 Having entered the code presented on the TV screen a standard OAuth authorisation dialog is shown:
 
 <figure>
-    <img src="/images/device-flow/youtube-1.png">
+    <img src="/images/device-flow/youtube-2.png" title="">
 </figure>
 
 <figure>
-    <img src="/images/device-flow/youtube-1.png">
+    <img src="/images/device-flow/youtube-3.png" title="">
 </figure>
 
 A few seconds after click Allow the Youtube app had refreshed to show my account information.
