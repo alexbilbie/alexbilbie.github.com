@@ -1,6 +1,6 @@
 ---
 title: "Amazon Web Services Developer Associate Certification"
-layout: default
+layout: post
 ---
 
 <figure>
