@@ -5,8 +5,10 @@ layout: default
 
   {% if site.data.tags[page.tag] %}
 
+    {{ content }}
+
     {% assign tagdata = site.data.tags[page.tag] %}
-    <h1 class="page-title">{{ tagdata.name }}</h1>
+    <h1 class="page-title">{{ tagdata.name }} Posts</h1>
 
     {% for post in site.tags[page.tag] %}
     <dl class="dl-horizontal">

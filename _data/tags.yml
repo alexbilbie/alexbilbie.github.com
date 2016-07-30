@@ -1,15 +1,19 @@
 ---
-php:
-  name: PHP Articles
-  sidebar: true
 oauth:
-  name: OAuth Articles
+  name: OAuth
+  sidebar_name: OAuth Articles and Posts
+  sidebar: true
+php:
+  name: PHP
+  sidebar_name: PHP Posts
   sidebar: true
 ansible:
-  name: Ansible Articles
+  name: Ansible
+  sidebar_name: Ansible Posts
   sidebar: true
 devops:
-  name: Devops Articles
+  name: Devops
+  sidebar_name: Devops Posts
   sidebar: true
 hacks:
   name: Things I've Made
