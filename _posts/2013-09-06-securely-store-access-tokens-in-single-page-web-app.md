@@ -6,12 +6,6 @@ published: true
 tags: [oauth]
 ---
 
----
-
-### Please see my new post which explains my thoughts here in greater detail - [http://alexbilbie.com/2014/11/oauth-and-javascript/](http://alexbilbie.com/2014/11/oauth-and-javascript/)
-
----
-
 A question I'm asked frequently is how developers should securely store OAuth access tokens and client credentials in a single page JavaScript webapp.
 
 Here's the answer: you can't.
@@ -24,6 +18,6 @@ The user's browser will automatically present the certificate when requested by 
 
 Having said that I really don't think it's worth the pain of development, testing, debugging and maintaining. Instead my recommendation is to have a very thin backend script through which all ajax requests are proxied. This backend script can securely store the user's access token in an encrypted cookie/session/whatever and it securely keeps client's credentials away from the front end.
 
-Shameless plug: If you want to really easily implement a standards compliant OAuth 2.0 authorization server or secure your API with OAuth 2.0 then check out my PHP library - [https://github.com/php-loep/oauth2-server](https://github.com/php-loep/oauth2-server).
+Shameless plug: If you want to really easily implement a standards compliant OAuth 2.0 authorization server or secure your API with OAuth 2.0 then check out my PHP library - [https://github.com/thephpleague/oauth2-server](https://github.com/thephpleague/oauth2-server).
 
 <sup>*</sup> _I don't know if any of the upcoming HTML5 cryptography specifications will remedy this._
