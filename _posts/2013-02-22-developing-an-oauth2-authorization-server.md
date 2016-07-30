@@ -4,7 +4,18 @@ permalink: /2013/02/developing-an-oauth2-authorization-server/
 layout: post
 published: true
 date: "2013-02-22 09:00:00"
+tags: [oauth]
 ---
+
+*********************************
+
+### This article is very out of date - please see the latest documentation at [https://oauth2.thephpleague.com](https://oauth2.thephpleague.com)
+
+*********************************
+
+
+
+
 
 In [my previous post](http://alexbilbie.com/2013/02/php-meet-oauth-2/) I announced my new OAuth 2.0 PHP libraries. This is the first in a number of posts that will show you how to use it.
 
@@ -16,7 +27,7 @@ This guide will show you how to setup a basic OAuth 2.0 authorization server whi
 
 The recommended way of installing the library is via [Composer](http://getcomposer.org).
 
-If you already have a composer.json file in your root then add `”lncd/oauth2”: “*”` in the _require_ object. Then run `composer update`.
+If you already have a composer.json file in your root then add `"lncd/oauth2”: “*”` in the _require_ object. Then run `composer update`.
 
 Otherwise create a new file in your project root called _composer.json_ add set the contents to:
 
@@ -33,7 +44,7 @@ Ensure now that you’ve set up your project to autoload composer packages.
 
 ---
 
-You could alternatively add the library as a git submodule or download a [zip](https://nodeload.github.com/lncd/OAuth2/zip/master).
+You could alternatively add the library as a git submodule or download a [zip](https://nodeload.github.com/league/OAuth2/zip/master).
 
 ## Set up the database
 
@@ -310,7 +321,3 @@ The final route to create is where the client exchanges the authorization code f
     echo json_encode($response);
 }
 </code></pre>
-
----
-
-A complete example of an authorisation server can be found at [https://github.com/lncd/oauth2-example-auth-server](https://github.com/lncd/oauth2-example-auth-server).

@@ -2,7 +2,15 @@
 layout: post
 title: "PHP, meet OAuth 2.0"
 permalink: /2013/02/php-meet-oauth-2/
+tags: [oauth]
 ---
+
+---
+### This article is very out of date - please see the latest documentation at [https://oauth2.thephpleague.com](https://oauth2.thephpleague.com)
+---
+
+
+
 
 Over the last few months I’ve been developing a PHP library that helps you work with OAuth 2.0 in a number of different ways:
 
