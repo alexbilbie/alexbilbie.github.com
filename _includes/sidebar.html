@@ -36,7 +36,7 @@
       {% for node in tags_list %}
         {% if node[1].sidebar != nil %}
           <li class="sidebar-nav-item">
-            <a href="/tag/{{ node[0] }}">{{ node[1].sidebar_name }}</a>
+            <a href="/tag/{{ node[0] }}/">{{ node[1].sidebar_name }}</a>
           </li>
         {% endif %}
       {% endfor %}
