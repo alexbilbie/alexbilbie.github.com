@@ -59,7 +59,7 @@ The lovely team at Applingua expertly translated these allergies into the follow
 	<img src="/images/cant-eat-that/translation-iphone.jpg" />
 </figure>
 
-If you have an iOS device please do have a play with the app - both the all and the French language pack are free to download.
+If you have an iOS device please do have a play with the app - both the app and the French language pack are free to download.
 
 Likewise if you yourself have an allergy or have any friends or family who have allergies please do let them know about it.
 
