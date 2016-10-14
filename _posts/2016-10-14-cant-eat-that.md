@@ -10,7 +10,7 @@ I have a severe allergy to tree nuts and legumes (such as peanuts) and this ofte
 
 There are a few different companies out there that will happily sell you credit card-sized allergy translation cards at £5-10 per language but in a world where I'm more likely to have my iPhone on me than my wallet I decided an app makes more sense.
 
-About 18 months ago I took a short iOS Swift course with Treehouse but I never really got into it. This time, armed with an actual end goal in mind (always useful when learning new things), I sat down and refreshed my understanding and built an app I've called Can't Eat That.
+About 18 months ago I took a short iOS Swift course with Treehouse but I never really got into it. This time, armed with an actual end goal in mind (always useful when learning new things), I sat down and refreshed my understanding and built an app I've called [**Can't Eat That**](https://canteatthat.com).
 
 <figure>
 	<img src="/images/cant-eat-that/home-iphone.jpg" />
@@ -18,7 +18,7 @@ About 18 months ago I took a short iOS Swift course with Treehouse but I never r
 
 Working with a [fantastic translation agency](https://applingua.com/) in Cardiff (hi Rob!) the app has phrases describing 11 allergies in 18 languages.
 
-The list of languages is based on the [EU's food allergen label requirements](https://www.food.gov.uk/sites/default/files/food-allergen-labelling-technical-guidance.pdf) and include the following allergies:
+The allergies included in the app are based on the [EU's food allergen label requirements](https://www.food.gov.uk/sites/default/files/food-allergen-labelling-technical-guidance.pdf) (generally the items highlighted on an food wrapper ingredients label):
 
 * Eggs
 * Fish
