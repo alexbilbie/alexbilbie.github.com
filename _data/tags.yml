@@ -3,6 +3,10 @@ oauth:
   name: OAuth
   sidebar_name: OAuth Articles and Posts
   sidebar: true
+ios:
+  name: iOS
+  sidebar_name: iOS Posts
+  sidebar: true
 php:
   name: PHP
   sidebar_name: PHP Posts
