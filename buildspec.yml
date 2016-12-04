@@ -1,0 +1,19 @@
+version: 0.1
+
+environment_variables:
+  plaintext:
+    key: "value"
+    key: "value"
+            
+phases:
+  install:
+    commands:
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
+  build:
+    commands:
+      - jekyll build
+artifacts:
+  type: zip
+  files:
+    - _site/
+  discard-paths: yes
