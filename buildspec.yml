@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
-      - aws s3 sync _site/ s3://alexbilbie.com
   build:
     commands:
       - jekyll build
+      - aws s3 sync _site/ s3://alexbilbie.com
