@@ -1,5 +1,5 @@
 # Permalinks
-permalink:        /:year/:month/:title
+permalink:        /:year/:month/:title/
 
 # Setup
 title:            Alex Bilbie
