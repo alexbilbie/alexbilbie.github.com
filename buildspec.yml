@@ -6,7 +6,7 @@ phases:
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
   build:
     commands:
-      - echo "########## Building Jekyll site ##########"
+      - echo "******** Building Jekyll site ********"
       - jekyll build
-      - echo "########## Uploading to S3 ##########"
+      - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://alexbilbie.com
