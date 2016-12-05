@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+<div class="post" itemscope itemtype="http://schema.org/Article">
+  <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+  <meta itemprop="url" content="{{ page.url }}" />
+  <span class="post-date" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</span>
+  
+  <div itemprop="articleBody">
   {{ content }}
+  </div>
 
   {% if page.tags contains "oauth" %}
     <hr>
