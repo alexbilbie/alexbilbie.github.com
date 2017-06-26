@@ -12,4 +12,4 @@ author:
   url:            https://twitter.com/alexbilbie
 
 paginate:         5
-gems:             [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+plugins:             [jekyll-paginate, jekyll-gist, jekyll-sitemap]
