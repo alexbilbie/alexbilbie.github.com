@@ -11,10 +11,6 @@ php:
   name: PHP
   sidebar_name: PHP Posts
   sidebar: true
-ansible:
-  name: Ansible
-  sidebar_name: Ansible Posts
-  sidebar: true
 devops:
   name: Devops
   sidebar_name: Devops Posts
