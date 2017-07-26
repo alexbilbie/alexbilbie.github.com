@@ -3,8 +3,8 @@ permalink:        /:year/:month/:title/
 
 # Setup
 title:            Alex Bilbie
-tagline:          'Independent Software Developer'
-description:      'Independent Software Developer'
+tagline:          'Freelance AWS Solutions Architect and Devops Consultant'
+description:      'Freelance AWS Solutions Architect and Devops Consultant'
 url:              http://localhost:4000
 
 author:
