@@ -12,7 +12,7 @@ A little over five years ago I pushed the [first commit](https://github.com/thep
 
 The project has been downloaded over 2.5 million times, has more than 3000 Github stars and has been contributed to by 77 awesome people across some 2000 commits.
 
-Last year when I became self-employed I had intentions that I’d have more time to dedicate towards open source projects but reality worked out slightly differently and I’ve one of the busiest (and best) years of my life.
+Last year when I became self-employed I had intentions that I’d have more time to dedicate towards open source projects but reality worked out slightly differently and I’ve had one of the busiest (and best) years of my life.
 
 The other principal factor is truth be told I don’t actively use the project any more. This past year I’ve become more of a programming language polyglot and I’ve written more lines of JavaScript, Swift and Go than I have PHP.
 
