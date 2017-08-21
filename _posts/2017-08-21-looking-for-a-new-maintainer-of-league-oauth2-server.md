@@ -4,6 +4,7 @@ tags:
 - oauth
 - php
 title: Looking for a new maintainer of league/oauth2-server
+layout: post
 ---
 
 
