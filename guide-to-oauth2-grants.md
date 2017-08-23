@@ -221,7 +221,7 @@ A third party client is a client that you don't trust.
 
 An access token represents a permission granted to a client to access some protected resources.
 
-If you are authorizing a machine to access resources and you don't require the permission of a user to access said resources you should implement the [client credentials grant](/authorization-server/client-credentials-grant/).
+If you are authorizing a machine to access resources and you don't require the permission of a user to access said resources you should implement the client credentials grant.
 
 If you require the permission of a user to access resources you need to determine the client type.
 
@@ -229,10 +229,10 @@ If you require the permission of a user to access resources you need to determin
 
 Depending on whether or not the client is capable of keeping a secret will depend on which grant the client should use.
 
-If the client is a web application that has a server side component then you should implement the [authorization code grant](/authorization-server/auth-code-grant/).
+If the client is a web application that has a server side component then you should implement the authorization code grant.
 
-If the client is a web application that has runs entirely on the front end (e.g. a single page web application) you should implement the [password grant](/authorization-server/resource-owner-password-credentials-grant/) for a first party clients and the [implicit grant](/authorization-server/auth-code-grant/) for a third party clients.
+If the client is a web application that has runs entirely on the front end (e.g. a single page web application) you should implement the password grant for a first party clients and the implicit grant for a third party clients.
 
-If the client is a native application such as a mobile app you should implement the [password grant](/authorization-server/resource-owner-password-credentials-grant/).
+If the client is a native application such as a mobile app you should implement the password grant.
 
-Third party native applications should use the [authorization code grant](/authorization-server/auth-code-grant/) (via the native browser, not an embedded browser - e.g. for iOS push the user to Safari or use [SFSafariViewController](https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/), <u>don't</u> use an embedded [WKWebView](https://developer.apple.com/library/ios/documentation/WebKit/Reference/WKWebView_Ref/)).
+Third party native applications should use the authorization code grant (via the native browser, not an embedded browser - e.g. for iOS push the user to Safari or use [SFSafariViewController](https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/), <u>don't</u> use an embedded [WKWebView](https://developer.apple.com/library/ios/documentation/WebKit/Reference/WKWebView_Ref/)).
