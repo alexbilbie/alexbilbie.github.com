@@ -6,7 +6,7 @@ tags: [oauth]
 ---
 
 <figure>
-![https://s3.amazonaws.com/titlepages.leanpub.com/oauthello-a-book-about-oauth/large?1389476512](https://s3.amazonaws.com/titlepages.leanpub.com/oauthello-a-book-about-oauth/large?1389476512)
+    <img src="https://s3.amazonaws.com/titlepages.leanpub.com/oauthello-a-book-about-oauth/large?1389476512" />
 </figure>
 
 So tonight [I announced on Twitter](https://twitter.com/alexbilbie/status/422121924547063808) that I'm writing a book - [OAuthello, a book about OAuth](https://leanpub.com/oauthello-a-book-about-oauth/).
