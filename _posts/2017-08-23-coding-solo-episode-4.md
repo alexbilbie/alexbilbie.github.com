@@ -4,7 +4,7 @@ layout: post
 tags: [podcast]
 ---
 
-In episode four of [Coding Solo](https://codingsolo.works/), David and I have a nice ol' chat about their feelings when it comes to working on side projects. We also discuss taking time off from work and answer some more listener emails.
+In episode four of [Coding Solo](https://codingsolo.works/), David and I have a nice ol' chat about our feelings when it comes to working on side projects. We also discuss taking time off from work and answer some more listener emails.
 
 Please do send us any feedback you have especially if there any topics you feel we should cover or any questions you'd like us to answer about freelancing. You can email us at [feedback@codingsolo.works](mailto:feedback@codingsolo.works).
 
