@@ -36,4 +36,4 @@ My understanding is that this is because Alpine Linux uses _musl libc_ instead o
 
 Alpine provides a package called [libc6-compat](https://pkgs.alpinelinux.org/package/edge/main/x86/libc6-compat) which provides compatibility libraries for glibc as well as symlinks `/lib64` to `/lib`. This can be installed with the command `apk add libc6-compat`.
 
-After installing `libc6-compat` the X-Ray Daemon now runs successfully.
+After installing `libc6-compat` the X-Ray deamon now runs successfully.
