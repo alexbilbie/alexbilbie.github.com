@@ -1,5 +1,5 @@
 ---
-title: "Getting the AWS X-Ray Linux deamon to work with Alpine Linux"
+title: "Getting the AWS X-Ray deamon to run on Alpine Linux"
 layout: post
 tags: [devops,aws]
 ---
