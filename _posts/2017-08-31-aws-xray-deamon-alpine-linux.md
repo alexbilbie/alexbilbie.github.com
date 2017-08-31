@@ -8,7 +8,9 @@ tags: [devops,aws]
 
 I've been experimenting with bundling the [X-Ray deamon](http://docs.aws.amazon.com/xray/latest/devguide/xray-daemon.html) into an [Alpine Linux](https://alpinelinux.org/) container alongside some other binaries however out of the box it didn't work. Attempting to execute the `xray` binary would result in a confusing error message like this:
 
-> `sh: /xray: not found`
+```
+sh: /xray: not found
+```
 
 After some Googling I discovered the `ldd` command which is used to find the shared libraries that a binary calls.
 
